@@ -1,4 +1,4 @@
-Small molecule hydration free energies in explicit solvent: An
+Small  molecule  hydration  free  energies  in  explicit  solvent:  An
 extensive test of atomistic simulations: Supporting Information
 
 David L. Mobley, Christopher I. Bayly, Matthew D. Cooper, Michael
@@ -16,7 +16,8 @@ Computed uncertainties are provided.
 TABLE 1:: Computed and experimental hydration free energies and compo-
 nents.
 
-Molecule name                                    ∆Gelec.          ∆Gvdw.            ∆Ghyd.      ∆Gexpt.
+Molecule name                                    ∆Gelec.            ∆Gvdw.           ∆Ghyd.       ∆Gexpt.
+----------------------------------         -------------      ------------    -------------       -------
 1112 tetrachloroethane                      −1.43 ± 0.01       1.54 ± 0.02      0.11 ± 0.02         -1.28
 111 trichloroethane                         −1.13 ± 0.00       1.88 ± 0.02      0.75 ± 0.02         -0.19
 111 trifluoro 222 trimethoxyethane          −4.57 ± 0.01       2.31 ± 0.02     −2.26 ± 0.02         -0.80
@@ -521,6 +522,7 @@ trimethoxymethylbenzene                     −7.42 ± 0.02       1.59 ± 0.03  
 trimethyl phosphate                        −11.33 ± 0.02       0.74 ± 0.02    −10.59 ± 0.03         -8.70
 trimethylamine                              −4.15 ± 0.01       1.83 ± 0.02     −2.32 ± 0.02         -3.20
 undecan 2 one                               −5.26 ± 0.01       3.14 ± 0.03     −2.12 ± 0.03         -2.15
+---------------------------------------------------------------------------------------------------------
 
 
 Table 2  shows the same quantities as  in Table 1, but  only for those
@@ -530,7 +532,8 @@ bonded carbons. The revised results are shown.
 TABLE 2:: Computed and experimental hydration free energies and compo-
 nents.
 
-Molecule name                       ∆Gelec.         ∆Gvdw.            ∆Ghyd.     ∆Gexpt.
+Molecule name                       ∆Gelec.         ∆Gvdw.            ∆Ghyd.       ∆Gexpt.
+---------------------------    ------------       -----------   ------------      --------
 333 trimethoxypropionitrile    −6.93 ± 0.02       1.19 ± 0.03   −5.74 ± 0.04         -6.40
 3 cyanophenol                  −8.08 ± 0.02       1.09 ± 0.02   −6.99 ± 0.03         -9.65
 3 cyanopyridine                −5.84 ± 0.01       1.21 ± 0.02   −4.63 ± 0.02         -6.75
@@ -548,6 +551,7 @@ oct 1 yne                      −0.75 ± 0.00       1.87 ± 0.03    1.12 ± 0.0
 pent 1 yne                     −0.74 ± 0.00       1.19 ± 0.02    0.45 ± 0.02          0.01
 pentanenitrile                 −3.58 ± 0.01       1.42 ± 0.02   −2.16 ± 0.02         -3.52
 propyne                        −0.79 ± 0.00       0.99 ± 0.01    0.20 ± 0.01         -0.48
+------------------------------------------------------------------------------------------
 
 Table 3  shows the conversion between  the names as  tabulated in this
 work and IUPAC names (generated  from the mol2 files using  Open-Eye’s
@@ -558,6 +562,7 @@ TABLE  3::  Names  used  for   the  tables  and  files  here  and  the
 corresponding IUPAC names.
 
 Test set name                            IUPAC name
+-----------------------------------      ------------------------------------------
 1112 tetrachloroethane                   1,1,1,2-tetrachloroethane
 111 trichloroethane                      1,1,1-trichloroethane
 111 trifluoro 222 trimethoxyethane       1,1,1-trifluoro-2,2,2-trimethoxy-ethane
@@ -1062,6 +1067,7 @@ trimethoxymethylbenzene                  trimethoxymethylbenzene
 trimethyl phosphate                      trimethyl phosphate
 trimethylamine                           N,N-dimethylmethanamine
 undecan 2 one                            undecan-2-one
+----------------------------------------------------------------------------------------------------
 
 
 Table 4 shows  mean solvent accessible surface areas  and volumes from
@@ -1070,6 +1076,7 @@ simulations of the molecules in the test set.
 TABLE 4:: Solvent accessible surface areas and volumes (angstrom units).
 
 SASA               SAV
+-----------        -----------
 193.6 ± 0.1        234.8 ± 0.1
 274.7 ± 0.4        364.6 ± 0.2
 240.9 ± 0.1        307.3 ± 0.2
@@ -1574,6 +1581,7 @@ SASA               SAV
 255.4 ± 0.1        337.2 ± 0.1
 232.4 ± 0.1        297.0 ± 0.2
 194.2 ± 0.1        238.6 ± 0.1
+------------------------------
 
 
 Input mol2 files with partial charges are available as a separate file
@@ -1591,6 +1599,7 @@ gas phase too much relative to experiment.
 
 
 Functional group             Number    t-value    Significance   Mean error
+--------------------------   ------    -------    ------------   ----------
 acid                             73       2.47            0.02        -0.34
 alcohol                          38      -7.81           2e-09         1.29
 aldehyde                         20       0.53              0.6       -0.07
@@ -1615,6 +1624,7 @@ nitro compound                   17      -4.91          0.0002         1.13
 other                            29      -1.74             0.09        0.55
 phenol or hydroxyhetarene        33      -7.00           6e-08         1.16
 thiol                             5     -12.40          0.0002         0.89
+---------------------------------------------------------------------------
 
 TABLE 5: Statistics  from applying Student’s t test  to the difference
 between the  calculated and  experimental means by  funcational group.
