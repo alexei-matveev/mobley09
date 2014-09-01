@@ -1590,31 +1590,31 @@ gas phase too much relative to experiment.
 
 
 
-Functional group                                         Number           t-value         Significance                                  Mean error
-acid                                                         73              2.47                 0.02                                       -0.34
-alcohol                                                      38             -7.81                2e-09                                        1.29
-aldehyde                                                     20              0.53                   0.6                                      -0.07
-alkanes                                                      28             -4.43               0.0001                                        0.31
-alkene                                                       35            -14.67                3e-16                                        1.07
-alkyl bromide                                                17             -8.33                3e-07                                        1.50
-alkyl chloride                                               31             -7.96                7e-09                                        1.09
-alkyl iodide                                                  9             -7.10               0.0001                                        0.86
-alkyne                                                        6             -7.17               0.0008                                        0.49
-amine                                                        44             -4.01               0.0002                                        0.55
-aromatic compound                                           170             -6.86                1e-10                                        0.55
-aryl chloride                                                20             -9.58                1e-08                                        1.04
-carbonitrile                                                 12             -7.11                2e-05                                        1.63
-cyclic hydrocarbon                                            8             -2.26                  0.06                                       0.21
-ester                                                         8             -0.04                     1                                       0.02
-ether                                                        42             -7.58                3e-09                                        1.01
-halogen derivative                                           22             -1.91                  0.07                                       0.73
-heterocyclic compound                                        48             -8.28                1e-10                                        1.02
-hypervalent S                                                 5              2.09                   0.1                                      -1.50
-ketone                                                       25             -0.25                   0.8                                       0.05
-nitro compound                                               17             -4.91               0.0002                                        1.13
-other                                                        29             -1.74                  0.09                                       0.55
-phenol or hydroxyhetarene                                    33             -7.00                6e-08                                        1.16
-thiol                                                         5            -12.40               0.0002                                        0.89
+Functional group             Number    t-value    Significance   Mean error
+acid                             73       2.47            0.02        -0.34
+alcohol                          38      -7.81           2e-09         1.29
+aldehyde                         20       0.53              0.6       -0.07
+alkanes                          28      -4.43          0.0001         0.31
+alkene                           35     -14.67           3e-16         1.07
+alkyl bromide                    17      -8.33           3e-07         1.50
+alkyl chloride                   31      -7.96           7e-09         1.09
+alkyl iodide                      9      -7.10          0.0001         0.86
+alkyne                            6      -7.17          0.0008         0.49
+amine                            44      -4.01          0.0002         0.55
+aromatic compound               170      -6.86           1e-10         0.55
+aryl chloride                    20      -9.58           1e-08         1.04
+carbonitrile                     12      -7.11           2e-05         1.63
+cyclic hydrocarbon                8      -2.26             0.06        0.21
+ester                             8      -0.04                1        0.02
+ether                            42      -7.58           3e-09         1.01
+halogen derivative               22      -1.91             0.07        0.73
+heterocyclic compound            48      -8.28           1e-10         1.02
+hypervalent S                     5       2.09              0.1       -1.50
+ketone                           25      -0.25              0.8        0.05
+nitro compound                   17      -4.91          0.0002         1.13
+other                            29      -1.74             0.09        0.55
+phenol or hydroxyhetarene        33      -7.00           6e-08         1.16
+thiol                             5     -12.40          0.0002         0.89
 
 TABLE 5: Statistics  from applying Student’s t test  to the difference
 between the  calculated and  experimental means by  funcational group.
