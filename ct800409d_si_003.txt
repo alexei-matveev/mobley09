@@ -1,66 +1,66 @@
-Small molecule hydration free energies in explicit solvent: An extensive test of atomistic
-simulations: Supporting Information
+Small molecule hydration free energies in explicit solvent: An
+extensive test of atomistic simulations: Supporting Information
 
-                 David L. Mobley, Christopher I. Bayly, Matthew D. Cooper, Michael R. Shirts, and Ken A. Dill
+David L. Mobley, Christopher I. Bayly, Matthew D. Cooper, Michael
+R. Shirts, and Ken A. Dill
 
-                 Draft date November 19, 2008
+Draft date November 19, 2008
 
 
-  Table 1 shows the full computed (∆Ghyd. ) and experimental (∆Gexpt. ) hydration free energies for all of the compounds in the test set
-with the original GAFF parameters. It includes the breakdown into electrostatic components (∆Gelec. ) and nonpolar components (∆Gvdw. ).
+Table 1 shows the full  computed (∆Ghyd. ) and experimental (∆Gexpt. )
+hydration free energies for all of  the compounds in the test set with
+the  original   GAFF  parameters.  It  includes   the  breakdown  into
+electrostatic components (∆Gelec. ) and nonpolar components (∆Gvdw. ).
 Computed uncertainties are provided.
 
-                             TABLE 1:: Computed and experimental hydration free energies and compo-
-                             nents.
+TABLE 1:: Computed and experimental hydration free energies and compo-
+nents.
 
-               Molecule name                                    ∆Gelec.          ∆Gvdw.            ∆Ghyd.      ∆Gexpt.
-               1112 tetrachloroethane                      −1.43 ± 0.01       1.54 ± 0.02      0.11 ± 0.02         -1.28
-               111 trichloroethane                         −1.13 ± 0.00       1.88 ± 0.02      0.75 ± 0.02         -0.19
-               111 trifluoro 222 trimethoxyethane          −4.57 ± 0.01       2.31 ± 0.02     −2.26 ± 0.02         -0.80
-               111 trifluoropropan 2 ol                    −6.05 ± 0.02       2.49 ± 0.02     −3.56 ± 0.03         -4.16
-               111 trimethoxyethane                        −5.55 ± 0.01       1.66 ± 0.02     −3.89 ± 0.02         -4.42
-               1122 tetrachloroethane                      −1.88 ± 0.03       1.47 ± 0.02     −0.41 ± 0.04         -2.47
-               112 trichloro 122 trifluoroethane           −0.32 ± 0.00       1.85 ± 0.02      1.53 ± 0.02          1.77
-               112 trichloroethane                         −2.01 ± 0.02       1.51 ± 0.02     −0.50 ± 0.03         -1.99
-               11 diacetoxyethane                          −9.52 ± 0.09       1.62 ± 0.03     −7.90 ± 0.10         -4.97
-               11 dichloroethane                           −1.64 ± 0.01       1.81 ± 0.02      0.17 ± 0.02         -0.84
-               11 dichloroethene                           −0.85 ± 0.00       2.09 ± 0.02      1.24 ± 0.02          0.25
-               11 diethoxyethane                           −4.57 ± 0.01       2.39 ± 0.02     −2.18 ± 0.02         -3.28
-               11 difluoroethane                           −2.41 ± 0.01       2.60 ± 0.02      0.19 ± 0.02         -0.11
-               1234 tetrachlorobenzene                     −1.25 ± 0.01       0.93 ± 0.02     −0.32 ± 0.02         -1.34
-               1235 tetrachlorobenzene                     −0.92 ± 0.00       0.90 ± 0.02     −0.02 ± 0.02         -1.62
-               123 trichlorobenzene                        −1.67 ± 0.01       1.29 ± 0.02     −0.38 ± 0.02         -1.24
-               123 trimethylbenzene                        −2.79 ± 0.01       2.14 ± 0.02     −0.65 ± 0.02         -1.21
-               1245 tetrachlorobenzene                     −0.97 ± 0.00       1.22 ± 0.02      0.25 ± 0.02         -1.34
-               124 trichlorobenzene                        −1.35 ± 0.00       1.17 ± 0.02     −0.18 ± 0.02         -1.12
-               124 trimethylbenzene                        −2.75 ± 0.01       2.39 ± 0.02     −0.36 ± 0.02         -0.86
-               12 diacetoxyethane                          −9.93 ± 0.02       1.61 ± 0.03     −8.32 ± 0.04         -6.34
-               12 dibromoethane                            −1.60 ± 0.01       1.79 ± 0.02      0.19 ± 0.02         -2.33
-               12 dichlorobenzene                          −1.96 ± 0.01       1.32 ± 0.02     −0.64 ± 0.02         -1.36
-               12 dichloroethane                           −2.15 ± 0.01       1.63 ± 0.02     −0.52 ± 0.02         -1.79
-               12 dichloropropane                          −2.13 ± 0.01       1.93 ± 0.02     −0.20 ± 0.02         -1.27
-               12 diethoxyethane                           −5.47 ± 0.01       2.39 ± 0.03     −3.08 ± 0.03         -3.54
-               12 dimethoxyethane                          −5.29 ± 0.01       1.93 ± 0.02     −3.36 ± 0.02         -4.84
-               12 ethanediol                               −8.71 ± 0.02       1.09 ± 0.02     −7.62 ± 0.03         -9.30
-               135 trichlorobenzene                        −0.96 ± 0.00       1.41 ± 0.02      0.45 ± 0.02         -0.78
-               135 trimethylbenzene                        −2.73 ± 0.01       2.77 ± 0.02      0.04 ± 0.02         -0.90
-               13 dichlorobenzene                          −1.60 ± 0.01       1.61 ± 0.02      0.01 ± 0.02         -0.98
-               13 dichloropropane                          −2.18 ± 0.01       1.80 ± 0.02     −0.38 ± 0.02         -1.89
-               13 dimethylnaphthalene                      −4.50 ± 0.01       1.71 ± 0.03     −2.79 ± 0.03         -2.47
-               14 dichlorobenzene                          −1.63 ± 0.01       1.53 ± 0.02     −0.10 ± 0.02         -1.01
-               14 dichlorobutane                           −2.38 ± 0.01       2.11 ± 0.02     −0.27 ± 0.02         -2.32
-               14 dimethyl piperazine                      −8.20 ± 0.02       0.80 ± 0.02     −7.40 ± 0.03         -7.58
-               14 dimethylnaphthalene                      −4.50 ± 0.01       1.21 ± 0.03     −3.29 ± 0.03         -2.82
-               14 dioxane                                  −4.71 ± 0.01       0.36 ± 0.02     −4.35 ± 0.02         -5.06
-               1 bromo 2 chloroethane                      −1.77 ± 0.01       1.79 ± 0.02      0.02 ± 0.02         -1.95
-               1 bromo 2 methylpropane                     −0.95 ± 0.01       2.19 ± 0.02      1.24 ± 0.02         -0.03
-               1 bromobutane                               −0.97 ± 0.00       2.65 ± 0.02      1.68 ± 0.02         -0.40
-               1 bromoheptane                              −0.97 ± 0.00       2.63 ± 0.03      1.66 ± 0.03          0.34
-               1 bromohexane                               −0.97 ± 0.00       2.75 ± 0.02      1.78 ± 0.02          0.18
-
-
-                                                                   1
-1 bromooctane                   −0.97 ± 0.00   2.89 ± 0.03    1.92 ± 0.03    0.52
+Molecule name                                    ∆Gelec.          ∆Gvdw.            ∆Ghyd.      ∆Gexpt.
+1112 tetrachloroethane                      −1.43 ± 0.01       1.54 ± 0.02      0.11 ± 0.02         -1.28
+111 trichloroethane                         −1.13 ± 0.00       1.88 ± 0.02      0.75 ± 0.02         -0.19
+111 trifluoro 222 trimethoxyethane          −4.57 ± 0.01       2.31 ± 0.02     −2.26 ± 0.02         -0.80
+111 trifluoropropan 2 ol                    −6.05 ± 0.02       2.49 ± 0.02     −3.56 ± 0.03         -4.16
+111 trimethoxyethane                        −5.55 ± 0.01       1.66 ± 0.02     −3.89 ± 0.02         -4.42
+1122 tetrachloroethane                      −1.88 ± 0.03       1.47 ± 0.02     −0.41 ± 0.04         -2.47
+112 trichloro 122 trifluoroethane           −0.32 ± 0.00       1.85 ± 0.02      1.53 ± 0.02          1.77
+112 trichloroethane                         −2.01 ± 0.02       1.51 ± 0.02     −0.50 ± 0.03         -1.99
+11 diacetoxyethane                          −9.52 ± 0.09       1.62 ± 0.03     −7.90 ± 0.10         -4.97
+11 dichloroethane                           −1.64 ± 0.01       1.81 ± 0.02      0.17 ± 0.02         -0.84
+11 dichloroethene                           −0.85 ± 0.00       2.09 ± 0.02      1.24 ± 0.02          0.25
+11 diethoxyethane                           −4.57 ± 0.01       2.39 ± 0.02     −2.18 ± 0.02         -3.28
+11 difluoroethane                           −2.41 ± 0.01       2.60 ± 0.02      0.19 ± 0.02         -0.11
+1234 tetrachlorobenzene                     −1.25 ± 0.01       0.93 ± 0.02     −0.32 ± 0.02         -1.34
+1235 tetrachlorobenzene                     −0.92 ± 0.00       0.90 ± 0.02     −0.02 ± 0.02         -1.62
+123 trichlorobenzene                        −1.67 ± 0.01       1.29 ± 0.02     −0.38 ± 0.02         -1.24
+123 trimethylbenzene                        −2.79 ± 0.01       2.14 ± 0.02     −0.65 ± 0.02         -1.21
+1245 tetrachlorobenzene                     −0.97 ± 0.00       1.22 ± 0.02      0.25 ± 0.02         -1.34
+124 trichlorobenzene                        −1.35 ± 0.00       1.17 ± 0.02     −0.18 ± 0.02         -1.12
+124 trimethylbenzene                        −2.75 ± 0.01       2.39 ± 0.02     −0.36 ± 0.02         -0.86
+12 diacetoxyethane                          −9.93 ± 0.02       1.61 ± 0.03     −8.32 ± 0.04         -6.34
+12 dibromoethane                            −1.60 ± 0.01       1.79 ± 0.02      0.19 ± 0.02         -2.33
+12 dichlorobenzene                          −1.96 ± 0.01       1.32 ± 0.02     −0.64 ± 0.02         -1.36
+12 dichloroethane                           −2.15 ± 0.01       1.63 ± 0.02     −0.52 ± 0.02         -1.79
+12 dichloropropane                          −2.13 ± 0.01       1.93 ± 0.02     −0.20 ± 0.02         -1.27
+12 diethoxyethane                           −5.47 ± 0.01       2.39 ± 0.03     −3.08 ± 0.03         -3.54
+12 dimethoxyethane                          −5.29 ± 0.01       1.93 ± 0.02     −3.36 ± 0.02         -4.84
+12 ethanediol                               −8.71 ± 0.02       1.09 ± 0.02     −7.62 ± 0.03         -9.30
+135 trichlorobenzene                        −0.96 ± 0.00       1.41 ± 0.02      0.45 ± 0.02         -0.78
+135 trimethylbenzene                        −2.73 ± 0.01       2.77 ± 0.02      0.04 ± 0.02         -0.90
+13 dichlorobenzene                          −1.60 ± 0.01       1.61 ± 0.02      0.01 ± 0.02         -0.98
+13 dichloropropane                          −2.18 ± 0.01       1.80 ± 0.02     −0.38 ± 0.02         -1.89
+13 dimethylnaphthalene                      −4.50 ± 0.01       1.71 ± 0.03     −2.79 ± 0.03         -2.47
+14 dichlorobenzene                          −1.63 ± 0.01       1.53 ± 0.02     −0.10 ± 0.02         -1.01
+14 dichlorobutane                           −2.38 ± 0.01       2.11 ± 0.02     −0.27 ± 0.02         -2.32
+14 dimethyl piperazine                      −8.20 ± 0.02       0.80 ± 0.02     −7.40 ± 0.03         -7.58
+14 dimethylnaphthalene                      −4.50 ± 0.01       1.21 ± 0.03     −3.29 ± 0.03         -2.82
+14 dioxane                                  −4.71 ± 0.01       0.36 ± 0.02     −4.35 ± 0.02         -5.06
+1 bromo 2 chloroethane                      −1.77 ± 0.01       1.79 ± 0.02      0.02 ± 0.02         -1.95
+1 bromo 2 methylpropane                     −0.95 ± 0.01       2.19 ± 0.02      1.24 ± 0.02         -0.03
+1 bromobutane                               −0.97 ± 0.00       2.65 ± 0.02      1.68 ± 0.02         -0.40
+1 bromoheptane                              −0.97 ± 0.00       2.63 ± 0.03      1.66 ± 0.03          0.34
+1 bromohexane                               −0.97 ± 0.00       2.75 ± 0.02      1.78 ± 0.02          0.18
+1 bromooctane                   −0.97 ± 0.00   2.89 ± 0.03    1.92 ± 0.03    0.52
 1 bromopentane                  −0.96 ± 0.00   2.44 ± 0.02    1.48 ± 0.02   -0.10
 1 bromopropane                  −0.98 ± 0.00   2.27 ± 0.02    1.29 ± 0.02   -0.56
 1 chloro 222 trifluoroethane    −2.27 ± 0.01   2.43 ± 0.02    0.16 ± 0.02    0.06
@@ -121,11 +121,7 @@ Computed uncertainties are provided.
 2 chlorotoluene                 −2.18 ± 0.01   1.67 ± 0.02   −0.51 ± 0.02   -1.14
 2 ethoxyethanol                 −6.41 ± 0.02   1.64 ± 0.02   −4.77 ± 0.03   -6.69
 2 ethylpyrazine                 −6.94 ± 0.02   1.26 ± 0.02   −5.68 ± 0.03   -5.45
-
-
-
-                                      2
-2 ethylpyridine                   −4.96 ± 0.01    1.75 ± 0.02   −3.21 ± 0.02   -4.33
+2 ethylpyridine                   −4.96 ± 0.01    1.75 ± 0.02   −3.21 ± 0.02   -4.33
 2 ethyltoluene                    −2.85 ± 0.01    2.19 ± 0.03   −0.66 ± 0.03   -1.04
 2 fluorophenol                    −4.89 ± 0.03    1.65 ± 0.02   −3.24 ± 0.03   -5.29
 2 iodophenol                      −3.93 ± 0.03    1.02 ± 0.02   −2.91 ± 0.03   -6.20
@@ -186,11 +182,7 @@ Computed uncertainties are provided.
 3 methyl 1h indole                −7.53 ± 0.02    0.98 ± 0.02   −6.55 ± 0.03   -5.88
 3 methyl but 1 ene                −0.33 ± 0.00    3.13 ± 0.02    2.80 ± 0.02    1.83
 3 methylbut 1 ene                 −0.34 ± 0.00    3.01 ± 0.02    2.67 ± 0.02    1.82
-
-
-
-                                         3
-3 methylbutan 1 ol                       −5.15 ± 0.02    2.23 ± 0.02    −2.92 ± 0.03    -4.42
+3 methylbutan 1 ol                       −5.15 ± 0.02    2.23 ± 0.02    −2.92 ± 0.03    -4.42
 3 methylbutan 2 one                      −5.34 ± 0.01    2.41 ± 0.02    −2.93 ± 0.02    -3.24
 3 methylbutanoic acid                    −6.99 ± 0.02    1.48 ± 0.02    −5.51 ± 0.03    -6.09
 3 methylheptane                           0.01 ± 0.00    3.28 ± 0.03     3.29 ± 0.03     2.97
@@ -251,11 +243,7 @@ Z pent 2 ene                             −0.42 ± 0.00    2.97 ± 0.02     2.5
 acenaphthene                             −4.89 ± 0.01    1.38 ± 0.03    −3.51 ± 0.03    -3.15
 acetaldehyde                             −5.18 ± 0.01    1.79 ± 0.02    −3.39 ± 0.02    -3.50
 acetic acid                              −7.07 ± 0.02    1.12 ± 0.01    −5.95 ± 0.02    -6.69
-
-
-
-                                                4
-acetonitrile                  −3.77 ± 0.01   2.10 ± 0.01    −1.67 ± 0.01    -3.88
+acetonitrile                  −3.77 ± 0.01   2.10 ± 0.01    −1.67 ± 0.01    -3.88
 acetophenone                  −6.67 ± 0.02   1.60 ± 0.02    −5.07 ± 0.03    -4.58
 alpha methylstyrene           −3.53 ± 0.01   2.27 ± 0.02    −1.26 ± 0.02    -1.24
 ammonia                       −5.82 ± 0.01   1.78 ± 0.01    −4.04 ± 0.01    -4.29
@@ -316,11 +304,7 @@ di n propyl sulfide           −2.15 ± 0.01   2.64 ± 0.02     0.49 ± 0.02   
 di n propylamine              −4.76 ± 0.01   2.50 ± 0.02    −2.26 ± 0.02    -3.65
 dibromomethane                −1.10 ± 0.00   1.97 ± 0.02     0.87 ± 0.02    -1.96
 dichloromethane               −1.60 ± 0.01   1.83 ± 0.01     0.23 ± 0.01    -1.31
-
-
-
-                                     5
-diethoxymethoxybenzene    −7.19 ± 0.02   2.75 ± 0.03    −4.44 ± 0.04    -5.23
+diethoxymethoxybenzene    −7.19 ± 0.02   2.75 ± 0.03    −4.44 ± 0.04    -5.23
 diethyl disulfide         −2.51 ± 0.01   2.44 ± 0.02    −0.07 ± 0.02    -1.64
 diethyl ether             −3.02 ± 0.01   2.32 ± 0.02    −0.70 ± 0.02    -1.59
 diethyl malonate          −8.27 ± 0.02   1.82 ± 0.03    −6.45 ± 0.04    -6.00
@@ -381,11 +365,7 @@ iodobenzene               −2.11 ± 0.01   1.77 ± 0.02    −0.34 ± 0.02    -
 iodoethane                −1.93 ± 0.01   1.83 ± 0.02    −0.10 ± 0.02    -0.74
 iodomethane               −1.90 ± 0.01   1.93 ± 0.01     0.03 ± 0.01    -0.89
 isoamyl acetate           −5.44 ± 0.01   2.39 ± 0.03    −3.05 ± 0.03    -2.21
-
-
-
-                                 6
-isoamyl formate                  −5.17 ± 0.01    1.78 ± 0.02   −3.39 ± 0.02   -2.13
+isoamyl formate                  −5.17 ± 0.01    1.78 ± 0.02   −3.39 ± 0.02   -2.13
 isobutyl acetate                 −5.23 ± 0.01    2.43 ± 0.02   −2.80 ± 0.02   -2.36
 isobutyl formate                 −5.00 ± 0.01    1.79 ± 0.02   −3.21 ± 0.02   -2.22
 isobutyl isobutanoate            −5.29 ± 0.01    2.74 ± 0.03   −2.55 ± 0.03   -1.69
@@ -446,11 +426,7 @@ n hexyl acetate                  −5.49 ± 0.01    2.52 ± 0.03   −2.97 ± 0.
 n hexylamine                     −4.88 ± 0.01    2.34 ± 0.02   −2.54 ± 0.02   -3.95
 n hexylbenzene                   −2.71 ± 0.01    2.95 ± 0.03    0.24 ± 0.03   -0.04
 n nonane                          0.01 ± 0.00    3.31 ± 0.03    3.32 ± 0.03    3.13
-
-
-
-                                       7
-n octane                       0.01 ± 0.00   3.12 ± 0.03    3.13 ± 0.03    2.88
+n octane                       0.01 ± 0.00   3.12 ± 0.03    3.13 ± 0.03    2.88
 n octylamine                  −5.12 ± 0.01   2.74 ± 0.03   −2.38 ± 0.03   -3.65
 n pentane                      0.01 ± 0.00   2.66 ± 0.02    2.67 ± 0.02    2.32
 n pentyl acetate              −5.40 ± 0.01   2.57 ± 0.03   −2.83 ± 0.03   -2.51
@@ -511,78 +487,75 @@ propan 1 ol                   −5.10 ± 0.01   1.98 ± 0.02   −3.12 ± 0.02  
 propan 2 ol                   −5.29 ± 0.01   2.01 ± 0.02   −3.28 ± 0.02   -4.74
 propane                        0.00 ± 0.00   2.56 ± 0.02    2.56 ± 0.02    1.96
 propanenitrile                −3.61 ± 0.01   2.34 ± 0.02   −1.27 ± 0.02   -3.84
+propanoic acid                              −7.64 ± 0.02        1.23 ± 0.02     −6.41 ± 0.03         -6.46
+propanone                                   −5.31 ± 0.01        1.95 ± 0.02     −3.36 ± 0.02         -3.80
+propene                                     −0.37 ± 0.00        2.81 ± 0.02      2.44 ± 0.02          1.32
+propionaldehyde                             −5.06 ± 0.01        1.98 ± 0.02     −3.08 ± 0.02         -3.43
+propyne                                     −0.87 ± 0.00        2.66 ± 0.02      1.79 ± 0.02         -0.48
+pyrene                                      −7.03 ± 0.01        0.41 ± 0.03     −6.62 ± 0.03         -4.52
+pyridine                                    −4.75 ± 0.01        1.30 ± 0.02     −3.45 ± 0.02         -4.69
+pyrrole                                     −5.16 ± 0.01        1.29 ± 0.02     −3.87 ± 0.02         -4.78
+pyrrolidine                                 −4.89 ± 0.01        0.98 ± 0.02     −3.91 ± 0.02         -5.48
+quinoline                                   −5.70 ± 0.01        0.83 ± 0.02     −4.87 ± 0.02         -5.72
+sec butylbenzene                            −2.72 ± 0.01        2.76 ± 0.03      0.04 ± 0.03         -0.45
+styrene                                     −3.34 ± 0.01        2.02 ± 0.02     −1.32 ± 0.02         -1.24
+teflurane                                   −1.99 ± 0.01        2.45 ± 0.02      0.46 ± 0.02          0.50
+tert butylbenzene                           −2.98 ± 0.01        2.56 ± 0.03     −0.42 ± 0.03         -0.44
+tetrachloroethene                           −0.09 ± 0.00        1.50 ± 0.02      1.41 ± 0.02          0.10
+tetrachloromethane                          −0.13 ± 0.00        1.54 ± 0.02      1.41 ± 0.02          0.08
+tetrafluoromethane                          −0.38 ± 0.00        2.80 ± 0.01      2.42 ± 0.01          3.12
+tetrahydrofuran                             −3.30 ± 0.01        1.23 ± 0.02     −2.07 ± 0.02         -3.47
+tetrahydropyran                             −2.80 ± 0.01        1.02 ± 0.02     −1.78 ± 0.02         -3.12
+thiophene                                   −1.88 ± 0.01        1.54 ± 0.02     −0.34 ± 0.02         -1.42
+thiophenol                                  −3.26 ± 0.01        1.83 ± 0.02     −1.43 ± 0.02         -2.55
+toluene                                     −2.70 ± 0.01        1.99 ± 0.02     −0.71 ± 0.02         -0.89
+trans 14 dimethylcyclohexane                 0.01 ± 0.00        2.04 ± 0.02      2.05 ± 0.02          2.11
+triacetyl glycerol                         −13.83 ± 0.08        0.52 ± 0.03    −13.31 ± 0.08         -8.84
+tribromomethane                             −0.70 ± 0.00        1.58 ± 0.02      0.88 ± 0.02         -2.13
+trichloroethene                             −0.82 ± 0.00        1.81 ± 0.02      0.99 ± 0.02         -0.44
+trichloromethane                            −1.23 ± 0.00        1.55 ± 0.02      0.32 ± 0.02         -1.08
+triethyl phosphate                         −11.94 ± 0.02        1.88 ± 0.03    −10.06 ± 0.04         -7.54
+triethylamine                               −4.28 ± 0.01        2.45 ± 0.03     −1.83 ± 0.03         -3.22
+trimethoxy methane                          −5.97 ± 0.02        1.91 ± 0.02     −4.06 ± 0.03         -4.42
+trimethoxymethylbenzene                     −7.42 ± 0.02        1.59 ± 0.03     −5.83 ± 0.04         -4.04
+trimethyl phosphate                        −11.33 ± 0.02        0.74 ± 0.02    −10.59 ± 0.03         -8.70
+trimethylamine                              −4.15 ± 0.01        1.83 ± 0.02     −2.32 ± 0.02         -3.20
+undecan 2 one                               −5.26 ± 0.01        3.14 ± 0.03     −2.12 ± 0.03         -2.15
 
 
-
-                                    8
-                propanoic acid                              −7.64 ± 0.02        1.23 ± 0.02     −6.41 ± 0.03         -6.46
-                propanone                                   −5.31 ± 0.01        1.95 ± 0.02     −3.36 ± 0.02         -3.80
-                propene                                     −0.37 ± 0.00        2.81 ± 0.02      2.44 ± 0.02          1.32
-                propionaldehyde                             −5.06 ± 0.01        1.98 ± 0.02     −3.08 ± 0.02         -3.43
-                propyne                                     −0.87 ± 0.00        2.66 ± 0.02      1.79 ± 0.02         -0.48
-                pyrene                                      −7.03 ± 0.01        0.41 ± 0.03     −6.62 ± 0.03         -4.52
-                pyridine                                    −4.75 ± 0.01        1.30 ± 0.02     −3.45 ± 0.02         -4.69
-                pyrrole                                     −5.16 ± 0.01        1.29 ± 0.02     −3.87 ± 0.02         -4.78
-                pyrrolidine                                 −4.89 ± 0.01        0.98 ± 0.02     −3.91 ± 0.02         -5.48
-                quinoline                                   −5.70 ± 0.01        0.83 ± 0.02     −4.87 ± 0.02         -5.72
-                sec butylbenzene                            −2.72 ± 0.01        2.76 ± 0.03      0.04 ± 0.03         -0.45
-                styrene                                     −3.34 ± 0.01        2.02 ± 0.02     −1.32 ± 0.02         -1.24
-                teflurane                                   −1.99 ± 0.01        2.45 ± 0.02      0.46 ± 0.02          0.50
-                tert butylbenzene                           −2.98 ± 0.01        2.56 ± 0.03     −0.42 ± 0.03         -0.44
-                tetrachloroethene                           −0.09 ± 0.00        1.50 ± 0.02      1.41 ± 0.02          0.10
-                tetrachloromethane                          −0.13 ± 0.00        1.54 ± 0.02      1.41 ± 0.02          0.08
-                tetrafluoromethane                          −0.38 ± 0.00        2.80 ± 0.01      2.42 ± 0.01          3.12
-                tetrahydrofuran                             −3.30 ± 0.01        1.23 ± 0.02     −2.07 ± 0.02         -3.47
-                tetrahydropyran                             −2.80 ± 0.01        1.02 ± 0.02     −1.78 ± 0.02         -3.12
-                thiophene                                   −1.88 ± 0.01        1.54 ± 0.02     −0.34 ± 0.02         -1.42
-                thiophenol                                  −3.26 ± 0.01        1.83 ± 0.02     −1.43 ± 0.02         -2.55
-                toluene                                     −2.70 ± 0.01        1.99 ± 0.02     −0.71 ± 0.02         -0.89
-                trans 14 dimethylcyclohexane                 0.01 ± 0.00        2.04 ± 0.02      2.05 ± 0.02          2.11
-                triacetyl glycerol                         −13.83 ± 0.08        0.52 ± 0.03    −13.31 ± 0.08         -8.84
-                tribromomethane                             −0.70 ± 0.00        1.58 ± 0.02      0.88 ± 0.02         -2.13
-                trichloroethene                             −0.82 ± 0.00        1.81 ± 0.02      0.99 ± 0.02         -0.44
-                trichloromethane                            −1.23 ± 0.00        1.55 ± 0.02      0.32 ± 0.02         -1.08
-                triethyl phosphate                         −11.94 ± 0.02        1.88 ± 0.03    −10.06 ± 0.04         -7.54
-                triethylamine                               −4.28 ± 0.01        2.45 ± 0.03     −1.83 ± 0.03         -3.22
-                trimethoxy methane                          −5.97 ± 0.02        1.91 ± 0.02     −4.06 ± 0.03         -4.42
-                trimethoxymethylbenzene                     −7.42 ± 0.02        1.59 ± 0.03     −5.83 ± 0.04         -4.04
-                trimethyl phosphate                        −11.33 ± 0.02        0.74 ± 0.02    −10.59 ± 0.03         -8.70
-                trimethylamine                              −4.15 ± 0.01        1.83 ± 0.02     −2.32 ± 0.02         -3.20
-                undecan 2 one                               −5.26 ± 0.01        3.14 ± 0.03     −2.12 ± 0.03         -2.15
-
-
-  Table 2 shows the same quantities as in Table 1, but only for those compounds affected by the amended Lennard-Jones well depth for triple
+Table 2  shows the same quantities as  in Table 1, but  only for those
+compounds affected by the  amended Lennard-Jones well depth for triple
 bonded carbons. The revised results are shown.
 
-                             TABLE 2:: Computed and experimental hydration free energies and compo-
-                             nents.
+TABLE 2:: Computed and experimental hydration free energies and compo-
+nents.
 
-                        Molecule name                       ∆Gelec.         ∆Gvdw.            ∆Ghyd.     ∆Gexpt.
-                        333 trimethoxypropionitrile    −6.93 ± 0.02       1.19 ± 0.03   −5.74 ± 0.04         -6.40
-                        3 cyanophenol                  −8.08 ± 0.02       1.09 ± 0.02   −6.99 ± 0.03         -9.65
-                        3 cyanopyridine                −5.84 ± 0.01       1.21 ± 0.02   −4.63 ± 0.02         -6.75
-                        4 cyanophenol                  −8.65 ± 0.02       1.41 ± 0.02   −7.24 ± 0.03        -10.17
-                        4 cyanopyridine                −6.01 ± 0.01       1.00 ± 0.02   −5.01 ± 0.02         -6.02
-                        acetonitrile                   −3.76 ± 0.01       1.25 ± 0.01   −2.51 ± 0.01         -3.88
-                        benzonitrile                   −4.14 ± 0.01       1.52 ± 0.02   −2.62 ± 0.02         -4.21
-                        but 1 yne                      −0.77 ± 0.01       1.28 ± 0.02    0.51 ± 0.02         -0.16
-                        butanenitrile                  −3.59 ± 0.01       1.36 ± 0.02   −2.23 ± 0.02         -3.64
-                        cyanobenzene                   −4.13 ± 0.01       1.57 ± 0.02   −2.56 ± 0.02         -4.10
-                        hept 1 yne                     −0.75 ± 0.00       1.59 ± 0.02    0.84 ± 0.02          0.60
-                        hex 1 yne                      −0.76 ± 0.00       1.55 ± 0.02    0.79 ± 0.02          0.29
-                        methyl cyanoacetate            −6.86 ± 0.01       0.52 ± 0.02   −6.34 ± 0.02         -6.72
-                        oct 1 yne                      −0.75 ± 0.00       1.87 ± 0.03    1.12 ± 0.03          0.71
-                        pent 1 yne                     −0.74 ± 0.00       1.19 ± 0.02    0.45 ± 0.02          0.01
-                        pentanenitrile                 −3.58 ± 0.01       1.42 ± 0.02   −2.16 ± 0.02         -3.52
-                        propyne                        −0.79 ± 0.00       0.99 ± 0.01    0.20 ± 0.01         -0.48
+Molecule name                       ∆Gelec.         ∆Gvdw.            ∆Ghyd.     ∆Gexpt.
+333 trimethoxypropionitrile    −6.93 ± 0.02       1.19 ± 0.03   −5.74 ± 0.04         -6.40
+3 cyanophenol                  −8.08 ± 0.02       1.09 ± 0.02   −6.99 ± 0.03         -9.65
+3 cyanopyridine                −5.84 ± 0.01       1.21 ± 0.02   −4.63 ± 0.02         -6.75
+4 cyanophenol                  −8.65 ± 0.02       1.41 ± 0.02   −7.24 ± 0.03        -10.17
+4 cyanopyridine                −6.01 ± 0.01       1.00 ± 0.02   −5.01 ± 0.02         -6.02
+acetonitrile                   −3.76 ± 0.01       1.25 ± 0.01   −2.51 ± 0.01         -3.88
+benzonitrile                   −4.14 ± 0.01       1.52 ± 0.02   −2.62 ± 0.02         -4.21
+but 1 yne                      −0.77 ± 0.01       1.28 ± 0.02    0.51 ± 0.02         -0.16
+butanenitrile                  −3.59 ± 0.01       1.36 ± 0.02   −2.23 ± 0.02         -3.64
+cyanobenzene                   −4.13 ± 0.01       1.57 ± 0.02   −2.56 ± 0.02         -4.10
+hept 1 yne                     −0.75 ± 0.00       1.59 ± 0.02    0.84 ± 0.02          0.60
+hex 1 yne                      −0.76 ± 0.00       1.55 ± 0.02    0.79 ± 0.02          0.29
+methyl cyanoacetate            −6.86 ± 0.01       0.52 ± 0.02   −6.34 ± 0.02         -6.72
+oct 1 yne                      −0.75 ± 0.00       1.87 ± 0.03    1.12 ± 0.03          0.71
+pent 1 yne                     −0.74 ± 0.00       1.19 ± 0.02    0.45 ± 0.02          0.01
+pentanenitrile                 −3.58 ± 0.01       1.42 ± 0.02   −2.16 ± 0.02         -3.52
+propyne                        −0.79 ± 0.00       0.99 ± 0.01    0.20 ± 0.01         -0.48
 
-  Table 3 shows the conversion between the names as tabulated in this work and IUPAC names (generated from the mol2 files using Open-
-Eye’s Lexichem package).
+Table 3  shows the conversion between  the names as  tabulated in this
+work and IUPAC names (generated  from the mol2 files using Open- Eye’s
+Lexichem package).
 
 
-                                                                      9
-           TABLE 3:: Names used for the tables and files here and the corresponding IU-
-           PAC names.
+TABLE  3::  Names  used  for   the  tables  and  files  here  and  the
+corresponding IU- PAC names.
 
 Test set name                            IUPAC name
 1112 tetrachloroethane                   1,1,1,2-tetrachloroethane
@@ -643,11 +616,7 @@ Test set name                            IUPAC name
 1 iodohexane                             1-iodohexane
 1 iodopentane                            1-iodopentane
 1 iodopropane                            1-iodopropane
-
-
-
-                                               10
-1 methyl imidazole               1-methylimidazole
+1 methyl imidazole               1-methylimidazole
 1 methyl pyrrole                 1-methylpyrrole
 1 methylcyclohexene              1-methylcyclohexene
 1 methylnaphthalene              1-methylnaphthalene
@@ -708,11 +677,7 @@ Test set name                            IUPAC name
 2 methylbut 2 ene                2-methylbut-2-ene
 2 methylbuta 13 diene            isoprene
 2 methylbutan 1 ol               2-methylbutan-1-ol
-
-
-
-                                       11
-2 methylbutan 2 ol            2-methylbutan-2-ol
+2 methylbutan 2 ol            2-methylbutan-2-ol
 2 methylbutane                isopentane
 2 methylhexane                2-methylhexane
 2 methylpent 1 ene            2-methylpent-1-ene
@@ -773,11 +738,7 @@ Test set name                            IUPAC name
 4 bromophenol                 4-bromophenol
 4 bromotoluene                1-bromo-4-methyl-benzene
 4 chloro 3 methylphenol       4-chloro-3-methyl-phenol
-
-
-
-                                    12
-4 chloroaniline                         4-chloroaniline
+4 chloroaniline                         4-chloroaniline
 4 chlorophenol                          4-chlorophenol
 4 cyanophenol                           4-hydroxybenzonitrile
 4 cyanopyridine                         pyridine-4-carbonitrile
@@ -838,11 +799,7 @@ benzonitrile                            benzonitrile
 benzotrifluoride                        trifluoromethylbenzene
 benzyl alcohol                          phenylmethanol
 benzyl bromide                          bromomethylbenzene
-
-
-
-                                              13
-benzyl chloride              chloromethylbenzene
+benzyl chloride              chloromethylbenzene
 biphenyl                     biphenyl
 bis 2 chloroethyl ether      1-chloro-2-(2-chloroethoxy)ethane
 bromobenzene                 bromobenzene
@@ -903,11 +860,7 @@ dimethyl disulfide           methyldisulfanylmethane
 dimethyl ether               methoxymethane
 dimethyl sulfate             dimethyl sulfate
 dimethyl sulfide             methylsulfanylmethane
-
-
-
-                                   14
-dimethyl sulfone                methylsulfonylmethane
+dimethyl sulfone                methylsulfonylmethane
 dimethyl sulfoxide              methylsulfinylmethane
 dimethylamine                   N-methylmethanamine
 ethanamide                      acetamide
@@ -968,11 +921,7 @@ m cresol                        m-cresol
 m xylene                        m-xylene
 methane                         methane
 methanesulfonyl chloride        methanesulfonyl chloride
-
-
-
-                                      15
-methanethiol                     methanethiol
+methanethiol                     methanethiol
 methanol                         methanol
 methoxyflurane                   2,2-dichloro-1,1-difluoro-1-methoxy-ethane
 methyl acetate                   methyl acetate
@@ -1033,11 +982,7 @@ n propyl formate                 propyl formate
 n propyl propanoate              propyl propanoate
 n propylamine                    propan-1-amine
 n propylbenzene                  propylbenzene
-
-
-
-                                       16
-n propylcyclopentane          propylcyclopentane
+n propylcyclopentane          propylcyclopentane
 naphthalene                   naphthalene
 nitrobenzene                  nitrobenzene
 nitroethane                   1-nitroethane
@@ -1098,77 +1043,71 @@ styrene                       styrene
 teflurane                     2-bromo-1,1,1,2-tetrafluoro-ethane
 tert butylbenzene             tert-butylbenzene
 tetrachloroethene             1,1,2,2-tetrachloroethylene
+tetrachloromethane                          carbon tetrachloride
+tetrafluoromethane                          tetrafluoromethane
+tetrahydrofuran                             tetrahydrofuran
+tetrahydropyran                             tetrahydropyran
+thiophene                                   thiophene
+thiophenol                                  benzenethiol
+toluene                                     toluene
+trans 14 dimethylcyclohexane                1,4-dimethylcyclohexane
+triacetyl glycerol                          3-acetyl-3,4-dihydroxy-4-(hydroxymethyl)hexane-2,5-dione
+tribromomethane                             bromoform
+trichloroethene                             1,1,2-trichloroethylene
+trichloromethane                            chloroform
+triethyl phosphate                          triethyl phosphate
+triethylamine                               N,N-diethylethanamine
+trimethoxy methane                          trimethoxymethane
+trimethoxymethylbenzene                     trimethoxymethylbenzene
+trimethyl phosphate                         trimethyl phosphate
+trimethylamine                              N,N-dimethylmethanamine
+undecan 2 one                               undecan-2-one
 
 
+Table 4 shows  mean solvent accessible surface areas  and volumes from
+simulations of the molecules in the test set.
 
-                                    17
-               tetrachloromethane                          carbon tetrachloride
-               tetrafluoromethane                          tetrafluoromethane
-               tetrahydrofuran                             tetrahydrofuran
-               tetrahydropyran                             tetrahydropyran
-               thiophene                                   thiophene
-               thiophenol                                  benzenethiol
-               toluene                                     toluene
-               trans 14 dimethylcyclohexane                1,4-dimethylcyclohexane
-               triacetyl glycerol                          3-acetyl-3,4-dihydroxy-4-(hydroxymethyl)hexane-2,5-dione
-               tribromomethane                             bromoform
-               trichloroethene                             1,1,2-trichloroethylene
-               trichloromethane                            chloroform
-               triethyl phosphate                          triethyl phosphate
-               triethylamine                               N,N-diethylethanamine
-               trimethoxy methane                          trimethoxymethane
-               trimethoxymethylbenzene                     trimethoxymethylbenzene
-               trimethyl phosphate                         trimethyl phosphate
-               trimethylamine                              N,N-dimethylmethanamine
-               undecan 2 one                               undecan-2-one
+TABLE 4:: Solvent accessible surface areas and volumes (angstrom units).
 
-
-Table 4 shows mean solvent accessible surface areas and volumes from simulations of the molecules in the test set.
-
-                             TABLE 4:: Solvent accessible surface areas and volumes (angstrom units).
-
-                                                     SASA               SAV
-                                                     193.6 ± 0.1        234.8 ± 0.1
-                                                     274.7 ± 0.4        364.6 ± 0.2
-                                                     240.9 ± 0.1        307.3 ± 0.2
-                                                     217.4 ± 0.1        272.0 ± 0.1
-                                                     300.3 ± 0.2        396.7 ± 0.2
-                                                     220.0 ± 0.1        279.0 ± 0.1
-                                                     248.8 ± 0.1        323.5 ± 0.1
-                                                     82.5 ± 0.0         69.6 ± 0.0
-                                                     211.5 ± 0.1        266.0 ± 0.1
-                                                     222.3 ± 0.1        283.1 ± 0.1
-                                                     232.2 ± 0.2        286.4 ± 0.1
-                                                     206.2 ± 0.1        253.8 ± 0.1
-                                                     231.6 ± 0.1        294.2 ± 0.1
-                                                     312.0 ± 0.3        408.3 ± 0.2
-                                                     199.3 ± 0.1        242.0 ± 0.1
-                                                     223.6 ± 0.2        284.9 ± 0.2
-                                                     247.3 ± 0.2        324.3 ± 0.2
-                                                     159.2 ± 0.1        179.7 ± 0.1
-                                                     156.7 ± 0.1        173.7 ± 0.1
-                                                     252.6 ± 0.2        321.3 ± 0.1
-                                                     257.4 ± 0.2        343.8 ± 0.2
-                                                     156.0 ± 0.1        174.7 ± 0.1
-                                                     215.6 ± 0.1        266.4 ± 0.1
-                                                     277.9 ± 0.3        359.0 ± 0.2
-                                                     237.8 ± 0.1        306.3 ± 0.1
-                                                     215.2 ± 0.1        264.8 ± 0.1
-                                                     202.9 ± 0.1        247.7 ± 0.1
-                                                     129.7 ± 0.1        136.5 ± 0.1
-                                                     263.5 ± 0.2        349.0 ± 0.2
-                                                     105.7 ± 0.0        102.2 ± 0.0
-                                                     233.4 ± 0.1        287.8 ± 0.1
-                                                     203.2 ± 0.1        247.4 ± 0.1
-                                                     233.9 ± 0.1        300.3 ± 0.2
-                                                     211.5 ± 0.1        265.9 ± 0.1
-                                                     195.9 ± 0.1        232.4 ± 0.1
-                                                     238.1 ± 0.1        302.4 ± 0.1
-                                                     208.4 ± 0.1        255.7 ± 0.1
-
-
-                                                                   18
-259.0 ± 0.2        338.9 ± 0.1
+SASA               SAV
+193.6 ± 0.1        234.8 ± 0.1
+274.7 ± 0.4        364.6 ± 0.2
+240.9 ± 0.1        307.3 ± 0.2
+217.4 ± 0.1        272.0 ± 0.1
+300.3 ± 0.2        396.7 ± 0.2
+220.0 ± 0.1        279.0 ± 0.1
+248.8 ± 0.1        323.5 ± 0.1
+82.5 ± 0.0         69.6 ± 0.0
+211.5 ± 0.1        266.0 ± 0.1
+222.3 ± 0.1        283.1 ± 0.1
+232.2 ± 0.2        286.4 ± 0.1
+206.2 ± 0.1        253.8 ± 0.1
+231.6 ± 0.1        294.2 ± 0.1
+312.0 ± 0.3        408.3 ± 0.2
+199.3 ± 0.1        242.0 ± 0.1
+223.6 ± 0.2        284.9 ± 0.2
+247.3 ± 0.2        324.3 ± 0.2
+159.2 ± 0.1        179.7 ± 0.1
+156.7 ± 0.1        173.7 ± 0.1
+252.6 ± 0.2        321.3 ± 0.1
+257.4 ± 0.2        343.8 ± 0.2
+156.0 ± 0.1        174.7 ± 0.1
+215.6 ± 0.1        266.4 ± 0.1
+277.9 ± 0.3        359.0 ± 0.2
+237.8 ± 0.1        306.3 ± 0.1
+215.2 ± 0.1        264.8 ± 0.1
+202.9 ± 0.1        247.7 ± 0.1
+129.7 ± 0.1        136.5 ± 0.1
+263.5 ± 0.2        349.0 ± 0.2
+105.7 ± 0.0        102.2 ± 0.0
+233.4 ± 0.1        287.8 ± 0.1
+203.2 ± 0.1        247.4 ± 0.1
+233.9 ± 0.1        300.3 ± 0.2
+211.5 ± 0.1        265.9 ± 0.1
+195.9 ± 0.1        232.4 ± 0.1
+238.1 ± 0.1        302.4 ± 0.1
+208.4 ± 0.1        255.7 ± 0.1
+259.0 ± 0.2        338.9 ± 0.1
 190.3 ± 0.1        225.6 ± 0.1
 200.6 ± 0.1        247.3 ± 0.1
 214.9 ± 0.1        266.2 ± 0.1
@@ -1229,11 +1168,7 @@ Table 4 shows mean solvent accessible surface areas and volumes from simulations
 228.2 ± 0.2        283.0 ± 0.1
 204.7 ± 0.1        255.8 ± 0.2
 336.9 ± 0.5        460.8 ± 0.2
-
-
-
-              19
-296.9 ± 0.2        415.9 ± 0.2
+296.9 ± 0.2        415.9 ± 0.2
 151.1 ± 0.1        165.9 ± 0.1
 207.3 ± 0.1        257.1 ± 0.1
 236.8 ± 0.1        303.9 ± 0.1
@@ -1294,11 +1229,7 @@ Table 4 shows mean solvent accessible surface areas and volumes from simulations
 237.6 ± 0.1        302.5 ± 0.1
 215.6 ± 0.2        268.0 ± 0.1
 265.0 ± 0.2        333.4 ± 0.1
-
-
-
-              20
-186.2 ± 0.1        227.9 ± 0.1
+186.2 ± 0.1        227.9 ± 0.1
 215.0 ± 0.1        263.6 ± 0.1
 184.4 ± 0.1        216.5 ± 0.1
 225.0 ± 0.1        288.7 ± 0.2
@@ -1359,11 +1290,7 @@ Table 4 shows mean solvent accessible surface areas and volumes from simulations
 204.0 ± 0.2        246.0 ± 0.1
 192.3 ± 0.2        230.4 ± 0.1
 248.6 ± 0.2        326.8 ± 0.2
-
-
-
-              21
-218.1 ± 0.1        274.6 ± 0.1
+218.1 ± 0.1        274.6 ± 0.1
 181.1 ± 0.1        219.4 ± 0.1
 319.4 ± 0.2        433.6 ± 0.2
 215.4 ± 0.2        263.1 ± 0.1
@@ -1424,11 +1351,7 @@ Table 4 shows mean solvent accessible surface areas and volumes from simulations
 234.8 ± 0.1        302.5 ± 0.1
 200.1 ± 0.1        242.7 ± 0.1
 197.7 ± 0.1        235.8 ± 0.1
-
-
-
-              22
-244.5 ± 0.1        317.0 ± 0.2
+244.5 ± 0.1        317.0 ± 0.2
 257.9 ± 0.3        324.9 ± 0.1
 227.9 ± 0.1        291.6 ± 0.1
 279.3 ± 0.2        361.1 ± 0.2
@@ -1489,11 +1412,7 @@ Table 4 shows mean solvent accessible surface areas and volumes from simulations
 242.6 ± 0.1        317.6 ± 0.1
 248.7 ± 0.1        325.8 ± 0.2
 217.4 ± 0.1        271.9 ± 0.1
-
-
-
-              23
-247.5 ± 0.1        314.0 ± 0.1
+247.5 ± 0.1        314.0 ± 0.1
 229.5 ± 0.1        300.5 ± 0.1
 255.4 ± 0.3        324.3 ± 0.2
 246.8 ± 0.1        321.1 ± 0.1
@@ -1554,11 +1473,7 @@ Table 4 shows mean solvent accessible surface areas and volumes from simulations
 254.6 ± 0.2        338.4 ± 0.2
 228.8 ± 0.2        284.6 ± 0.1
 214.5 ± 0.1        259.5 ± 0.1
-
-
-
-              24
-287.2 ± 0.3        372.5 ± 0.1
+287.2 ± 0.3        372.5 ± 0.1
 192.5 ± 0.1        239.2 ± 0.2
 249.3 ± 0.1        310.9 ± 0.1
 299.0 ± 0.3        411.2 ± 0.3
@@ -1619,147 +1534,106 @@ Table 4 shows mean solvent accessible surface areas and volumes from simulations
 248.8 ± 0.2        323.5 ± 0.2
 223.7 ± 0.1        283.7 ± 0.1
 247.4 ± 0.2        310.7 ± 0.1
+233.7 ± 0.2        299.5 ± 0.2
+226.9 ± 0.1        289.8 ± 0.1
+281.2 ± 0.4        361.8 ± 0.2
+191.2 ± 0.1        233.4 ± 0.1
+183.2 ± 0.1        212.1 ± 0.1
+314.4 ± 0.5        413.2 ± 0.2
+191.8 ± 0.1        229.9 ± 0.1
+299.4 ± 0.3        394.9 ± 0.2
+248.8 ± 0.1        327.2 ± 0.1
+179.3 ± 0.1        208.5 ± 0.1
+265.3 ± 0.3        338.9 ± 0.2
+278.0 ± 0.2        363.1 ± 0.2
+306.9 ± 0.2        423.2 ± 0.2
+285.5 ± 0.2        379.9 ± 0.2
+194.8 ± 0.1        232.0 ± 0.1
+190.1 ± 0.1        232.0 ± 0.1
+212.0 ± 0.1        266.2 ± 0.1
+168.3 ± 0.1        193.6 ± 0.1
+249.3 ± 0.2        325.5 ± 0.2
+179.8 ± 0.1        211.2 ± 0.1
+364.5 ± 0.8        488.5 ± 0.5
+202.5 ± 0.1        252.7 ± 0.1
+241.1 ± 0.2        312.9 ± 0.2
+281.3 ± 0.2        381.4 ± 0.2
+199.6 ± 0.1        238.0 ± 0.1
+222.9 ± 0.2        285.0 ± 0.2
+233.1 ± 0.1        300.9 ± 0.1
+201.9 ± 0.1        254.9 ± 0.1
+170.1 ± 0.1        196.5 ± 0.1
+226.4 ± 0.2        291.0 ± 0.2
+262.7 ± 0.2        354.3 ± 0.2
+181.9 ± 0.1        215.3 ± 0.1
+240.5 ± 0.1        314.9 ± 0.2
+225.0 ± 0.2        276.6 ± 0.1
+232.8 ± 0.1        298.3 ± 0.1
+177.9 ± 0.1        212.6 ± 0.1
+216.1 ± 0.1        271.7 ± 0.1
+255.4 ± 0.1        337.2 ± 0.1
+232.4 ± 0.1        297.0 ± 0.2
+194.2 ± 0.1        238.6 ± 0.1
 
 
-
-              25
-                                                         233.7 ± 0.2        299.5 ± 0.2
-                                                         226.9 ± 0.1        289.8 ± 0.1
-                                                         281.2 ± 0.4        361.8 ± 0.2
-                                                         191.2 ± 0.1        233.4 ± 0.1
-                                                         183.2 ± 0.1        212.1 ± 0.1
-                                                         314.4 ± 0.5        413.2 ± 0.2
-                                                         191.8 ± 0.1        229.9 ± 0.1
-                                                         299.4 ± 0.3        394.9 ± 0.2
-                                                         248.8 ± 0.1        327.2 ± 0.1
-                                                         179.3 ± 0.1        208.5 ± 0.1
-                                                         265.3 ± 0.3        338.9 ± 0.2
-                                                         278.0 ± 0.2        363.1 ± 0.2
-                                                         306.9 ± 0.2        423.2 ± 0.2
-                                                         285.5 ± 0.2        379.9 ± 0.2
-                                                         194.8 ± 0.1        232.0 ± 0.1
-                                                         190.1 ± 0.1        232.0 ± 0.1
-                                                         212.0 ± 0.1        266.2 ± 0.1
-                                                         168.3 ± 0.1        193.6 ± 0.1
-                                                         249.3 ± 0.2        325.5 ± 0.2
-                                                         179.8 ± 0.1        211.2 ± 0.1
-                                                         364.5 ± 0.8        488.5 ± 0.5
-                                                         202.5 ± 0.1        252.7 ± 0.1
-                                                         241.1 ± 0.2        312.9 ± 0.2
-                                                         281.3 ± 0.2        381.4 ± 0.2
-                                                         199.6 ± 0.1        238.0 ± 0.1
-                                                         222.9 ± 0.2        285.0 ± 0.2
-                                                         233.1 ± 0.1        300.9 ± 0.1
-                                                         201.9 ± 0.1        254.9 ± 0.1
-                                                         170.1 ± 0.1        196.5 ± 0.1
-                                                         226.4 ± 0.2        291.0 ± 0.2
-                                                         262.7 ± 0.2        354.3 ± 0.2
-                                                         181.9 ± 0.1        215.3 ± 0.1
-                                                         240.5 ± 0.1        314.9 ± 0.2
-                                                         225.0 ± 0.2        276.6 ± 0.1
-                                                         232.8 ± 0.1        298.3 ± 0.1
-                                                         177.9 ± 0.1        212.6 ± 0.1
-                                                         216.1 ± 0.1        271.7 ± 0.1
-                                                         255.4 ± 0.1        337.2 ± 0.1
-                                                         232.4 ± 0.1        297.0 ± 0.2
-                                                         194.2 ± 0.1        238.6 ± 0.1
-
-
-   Input mol2 files with partial charges are available as a separate file in the supporting information, as are AMBER formatted parameter and
+Input mol2 files with partial charges are available as a separate file
+in the  supporting information, as  are AMBER formatted  parameter and
 coordinate files.
-   Table 5 shows the application of Student’s t-test to comparing the calculated and experimental means by each functional group. For almost
-every functional group, the test indicates that the means are significantly different. This is not surprising since we observed a mean error of
-0.676±0.002 kcal/mol – solutes systematically prefer the gas phase too much relative to experiment.
+
+Table 5  shows the  application of Student’s  t-test to  comparing the
+calculated and experimental means by each functional group. For almost
+every  functional  group,  the  test  indicates  that  the  means  are
+significantly different.  This is not  surprising since we  observed a
+mean error of 0.676±0.002 kcal/mol – solutes systematically prefer the
+gas phase too much relative to experiment.
 
 
 
 
-                                                                       26
-             Functional group                                         Number           t-value         Significance                                  Mean error
-             acid                                                         73              2.47                 0.02                                       -0.34
-             alcohol                                                      38             -7.81                2e-09                                        1.29
-             aldehyde                                                     20              0.53                   0.6                                      -0.07
-             alkanes                                                      28             -4.43               0.0001                                        0.31
-             alkene                                                       35            -14.67                3e-16                                        1.07
-             alkyl bromide                                                17             -8.33                3e-07                                        1.50
-             alkyl chloride                                               31             -7.96                7e-09                                        1.09
-             alkyl iodide                                                  9             -7.10               0.0001                                        0.86
-             alkyne                                                        6             -7.17               0.0008                                        0.49
-             amine                                                        44             -4.01               0.0002                                        0.55
-             aromatic compound                                           170             -6.86                1e-10                                        0.55
-             aryl chloride                                                20             -9.58                1e-08                                        1.04
-             carbonitrile                                                 12             -7.11                2e-05                                        1.63
-             cyclic hydrocarbon                                            8             -2.26                  0.06                                       0.21
-             ester                                                         8             -0.04                     1                                       0.02
-             ether                                                        42             -7.58                3e-09                                        1.01
-             halogen derivative                                           22             -1.91                  0.07                                       0.73
-             heterocyclic compound                                        48             -8.28                1e-10                                        1.02
-             hypervalent S                                                 5              2.09                   0.1                                      -1.50
-             ketone                                                       25             -0.25                   0.8                                       0.05
-             nitro compound                                               17             -4.91               0.0002                                        1.13
-             other                                                        29             -1.74                  0.09                                       0.55
-             phenol or hydroxyhetarene                                    33             -7.00                6e-08                                        1.16
-             thiol                                                         5            -12.40               0.0002                                        0.89
+Functional group                                         Number           t-value         Significance                                  Mean error
+acid                                                         73              2.47                 0.02                                       -0.34
+alcohol                                                      38             -7.81                2e-09                                        1.29
+aldehyde                                                     20              0.53                   0.6                                      -0.07
+alkanes                                                      28             -4.43               0.0001                                        0.31
+alkene                                                       35            -14.67                3e-16                                        1.07
+alkyl bromide                                                17             -8.33                3e-07                                        1.50
+alkyl chloride                                               31             -7.96                7e-09                                        1.09
+alkyl iodide                                                  9             -7.10               0.0001                                        0.86
+alkyne                                                        6             -7.17               0.0008                                        0.49
+amine                                                        44             -4.01               0.0002                                        0.55
+aromatic compound                                           170             -6.86                1e-10                                        0.55
+aryl chloride                                                20             -9.58                1e-08                                        1.04
+carbonitrile                                                 12             -7.11                2e-05                                        1.63
+cyclic hydrocarbon                                            8             -2.26                  0.06                                       0.21
+ester                                                         8             -0.04                     1                                       0.02
+ether                                                        42             -7.58                3e-09                                        1.01
+halogen derivative                                           22             -1.91                  0.07                                       0.73
+heterocyclic compound                                        48             -8.28                1e-10                                        1.02
+hypervalent S                                                 5              2.09                   0.1                                      -1.50
+ketone                                                       25             -0.25                   0.8                                       0.05
+nitro compound                                               17             -4.91               0.0002                                        1.13
+other                                                        29             -1.74                  0.09                                       0.55
+phenol or hydroxyhetarene                                    33             -7.00                6e-08                                        1.16
+thiol                                                         5            -12.40               0.0002                                        0.89
 
-TABLE 5: Statistics from applying Student’s t test to the difference between the calculated and experimental means by funcational group.
-Shown are the number of compounds in each functional group, the calculated t value, the computed significance (probability that t could be
-this large or larger by chance) and the mean error for this group (in kcal/mol).
-
-
-
-
-                                   30                                                                                                                 0
- Dispersive component (kcal/mol)
+TABLE 5: Statistics  from applying Student’s t test  to the difference
+between the  calculated and  experimental means by  funcational group.
+Shown  are the  number  of  compounds in  each  functional group,  the
+calculated  t value,  the  computed significance  (probability that  t
+could be this  large or larger by chance) and the  mean error for this
+group (in kcal/mol).
 
 
+      [figures here]
+
+(a) Repulsive part of nonpolar component versus volume
+
+(b) Attractive part of nonpolar component versus volume
 
 
-                                                                                                                   Dispersive component (kcal/mol)
-
-
-
-
-                                   25
-                                                                                                                                                      -5
-
-
-                                   20
-                                                                                                                                                     -10
-
-                                   15
-
-                                                                                                                                                     -15
-                                   10
-
-
-                                                                                                                                                     -20
-                                   5
-
-
-                                   0                                                                                                                 -25
-                                        0        100        200        300           400         500         600                                           0        100        200         300           400     500     600
-                                                                              
-
-
-
-
-                                                                                 3                                                                                                                
-
-
-
-
-                                                                                                                                                                                                     3
-                                                                   Volume (A )                                                                                                        Volume (A )
-
-                                            (a) Repulsive part of nonpolar component versus volume                                                             (b) Attractive part of nonpolar component versus volume
-
-
-Figure 1. Repulsive and attractive parts of the nonpolar component versus volume. Shown are the repulsive (a) and attractive (b) parts
-of the nonpolar component, as calculated using the WCA separation, plotted versus the solvent accessible volume for solutes in the test set.
-Similar plots comparing the repulsive and attractive components to surface area are given in the main text.
-
-
-
-
-                                                                                                                                    27
-
+Figure  1. Repulsive and  attractive parts  of the  nonpolar component
+versus volume. Shown are the repulsive (a) and attractive (b) parts of
+the  nonpolar  component,  as  calculated using  the  WCA  separation,
+plotted versus the  solvent accessible volume for solutes  in the test
+set.  Similar plots comparing  the repulsive and attractive components
+to surface area are given in the main text.
