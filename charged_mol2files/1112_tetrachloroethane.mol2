@@ -1,0 +1,27 @@
+@<TRIPOS>MOLECULE
+1112_tetrachloroethane
+    8     7    1     0    0
+SMALL
+USER_CHARGES
+@<TRIPOS>ATOM
+   1 C1       1.0848     0.1201    -0.0975 C.3      1  TMP  0.0102
+   2 C2       1.4605     0.6234    -1.4942 C.3      1  TMP  0.2438
+   3 Cl1      1.5971     1.2148     1.2175 Cl       1  TMP -0.1355
+   4 Cl2      3.2317     0.8176    -1.6617 Cl       1  TMP -0.1047
+   5 Cl3      0.9165    -0.5849    -2.7058 Cl       1  TMP -0.1047
+   6 Cl4      0.6563     2.1791    -1.8630 Cl       1  TMP -0.1047
+   7 H1       1.5438    -0.8532     0.1083 H        1  TMP  0.0978
+   8 H2      -0.0000     0.0000     0.0000 H        1  TMP  0.0978
+@<TRIPOS>BOND
+   1    1    2 1 
+   2    1    3 1 
+   3    2    4 1 
+   4    2    5 1 
+   5    2    6 1 
+   6    1    7 1 
+   7    1    8 1 
+@<TRIPOS>SUBSTRUCTURE
+   1  TMP    1
+@<TRIPOS>COMMENT
+SMALL
+USER_CHARGES
