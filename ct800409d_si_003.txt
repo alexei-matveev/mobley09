@@ -616,452 +616,452 @@ Test set name                            IUPAC name
 1 iodohexane                             1-iodohexane
 1 iodopentane                            1-iodopentane
 1 iodopropane                            1-iodopropane
-1 methyl imidazole               1-methylimidazole
-1 methyl pyrrole                 1-methylpyrrole
-1 methylcyclohexene              1-methylcyclohexene
-1 methylnaphthalene              1-methylnaphthalene
-1 naphthol                       naphthalen-1-ol
-1 naphthylamine                  naphthalen-1-amine
-1 nitrobutane                    1-nitrobutane
-1 nitropentane                   1-nitropentane
-1 nitropropane                   1-nitropropane
-222 trifluoroethanol             2,2,2-trifluoroethanol
-224 trimethylpentane             2,2,4-trimethylpentane
-225 trimethylhexane              2,2,5-trimethylhexane
-22 dimethylbutane                2,2-dimethylbutane
-22 dimethylpentane               2,2-dimethylpentane
-22 dimethylpropane               neopentane
-234 trimethylpentane             2,3,4-trimethylpentane
-23 dimethylbuta 13 diene         2,3-dimethylbuta-1,3-diene
-23 dimethylbutane                2,3-dimethylbutane
-23 dimethylnaphthalene           2,3-dimethylnaphthalene
-23 dimethylpentane               2,3-dimethylpentane
-23 dimethylphenol                2,3-dimethylphenol
-23 dimethylpyridine              2,3-dimethylpyridine
-24 dimethylpentan 3 one          2,4-dimethylpentan-3-one
-24 dimethylpentane               2,4-dimethylpentane
-24 dimethylphenol                2,4-dimethylphenol
-24 dimethylpyridine              2,4-dimethylpyridine
-25 dimethylphenol                2,5-dimethylphenol
-25 dimethylpyridine              2,5-dimethylpyridine
-25 dimethyltetrahydrofuran       2,5-dimethyltetrahydrofuran
-26 dimethylaniline               2,6-dimethylaniline
-26 dimethylnaphthalene           2,6-dimethylnaphthalene
-26 dimethylphenol                2,6-dimethylphenol
-26 dimethylpyridine              2,6-dimethylpyridine
-2 bromo 2 methylpropane          2-bromo-2-methyl-propane
-2 bromopropane                   2-bromopropane
-2 butoxyethanol                  2-butoxyethanol
-2 chloro 111 trimethoxyethane    2-chloro-1,1,1-trimethoxy-ethane
-2 chloro 2 methylpropane         2-chloro-2-methyl-propane
-2 chloroaniline                  2-chloroaniline
-2 chlorobutane                   2-chlorobutane
-2 chlorophenol                   2-chlorophenol
-2 chloropropane                  2-chloropropane
-2 chloropyridine                 2-chloropyridine
-2 chlorotoluene                  1-chloro-2-methyl-benzene
-2 ethoxyethanol                  2-ethoxyethanol
-2 ethylpyrazine                  2-ethylpyrazine
-2 ethylpyridine                  2-ethylpyridine
-2 ethyltoluene                   1-ethyl-2-methyl-benzene
-2 fluorophenol                   2-fluorophenol
-2 iodophenol                     2-iodophenol
-2 iodopropane                    2-iodopropane
-2 isobutylpyrazine               2-isobutylpyrazine
-2 methoxy 111 trimethoxyethane   1,1,1,2-tetramethoxyethane
-2 methoxyaniline                 2-methoxyaniline
-2 methoxyethanamine              2-methoxyethanamine
-2 methoxyethanol                 2-methoxyethanol
-2 methoxyphenol                  2-methoxyphenol
-2 methyl but 2 ene               2-methylbut-2-ene
-2 methylbut 2 ene                2-methylbut-2-ene
-2 methylbuta 13 diene            isoprene
-2 methylbutan 1 ol               2-methylbutan-1-ol
-2 methylbutan 2 ol            2-methylbutan-2-ol
-2 methylbutane                isopentane
-2 methylhexane                2-methylhexane
-2 methylpent 1 ene            2-methylpent-1-ene
-2 methylpentan 2 ol           2-methylpentan-2-ol
-2 methylpentan 3 ol           2-methylpentan-3-ol
-2 methylpentane               isohexane
-2 methylpropan 1 ol           2-methylpropan-1-ol
-2 methylpropan 2 ol           2-methylpropan-2-ol
-2 methylpropane               isobutane
-2 methylpropene               2-methylprop-1-ene
-2 methylpyrazine              2-methylpyrazine
-2 methylpyridine              2-methylpyridine
-2 methyltetrahydrofuran       2-methyltetrahydrofuran
-2 methylthiophene             2-methylthiophene
-2 naphthol                    naphthalen-2-ol
-2 naphthylamine               naphthalen-2-amine
-2 nitroaniline                2-nitroaniline
-2 nitrophenol                 2-nitrophenol
-2 nitropropane                2-nitropropane
-2 nitrotoluene                1-methyl-2-nitro-benzene
-2 phenylethanol               2-phenylethanol
-2 propoxyethanol              2-propoxyethanol
-333 trimethoxypropionitrile   3,3,3-trimethoxypropanenitrile
-33 dimethylbutan 2 one        3,3-dimethylbutan-2-one
-33 dimethylpentane            3,3-dimethylpentane
-34 dimethylphenol             3,4-dimethylphenol
-34 dimethylpyridine           3,4-dimethylpyridine
-35 dimethylphenol             3,5-dimethylphenol
-35 dimethylpyridine           3,5-dimethylpyridine
-3 acetylpyridine              1-(3-pyridyl)ethanone
-3 chloroaniline               3-chloroaniline
-3 chlorophenol                3-chlorophenol
-3 chloroprop 1 ene            3-chloroprop-1-ene
-3 chloropyridine              3-chloropyridine
-3 cyanophenol                 3-hydroxybenzonitrile
-3 cyanopyridine               pyridine-3-carbonitrile
-3 ethylphenol                 3-ethylphenol
-3 ethylpyridine               3-ethylpyridine
-3 formylpyridine              pyridine-3-carbaldehyde
-3 hydroxybenzaldehyde         3-hydroxybenzaldehyde
-3 methoxyaniline              3-methoxyaniline
-3 methoxyphenol               3-methoxyphenol
-3 methyl 1h indole            3-methyl-1H-indole
-3 methyl but 1 ene            3-methylbut-1-ene
-3 methylbut 1 ene             3-methylbut-1-ene
-3 methylbutan 1 ol            3-methylbutan-1-ol
-3 methylbutan 2 one           3-methylbutan-2-one
-3 methylbutanoic acid         3-methylbutanoic acid
-3 methylheptane               3-methylheptane
-3 methylhexane                3-methylhexane
-3 methylpentane               3-methylpentane
-3 methylpyridine              3-methylpyridine
-3 nitroaniline                3-nitroaniline
-3 nitrophenol                 3-nitrophenol
-3 nitrotoluene                1-methyl-3-nitro-benzene
-3 phenylpropanol              3-phenylpropan-1-ol
-4 acetylpyridine              1-(4-pyridyl)ethanone
-4 bromophenol                 4-bromophenol
-4 bromotoluene                1-bromo-4-methyl-benzene
-4 chloro 3 methylphenol       4-chloro-3-methyl-phenol
-4 chloroaniline                         4-chloroaniline
-4 chlorophenol                          4-chlorophenol
-4 cyanophenol                           4-hydroxybenzonitrile
-4 cyanopyridine                         pyridine-4-carbonitrile
-4 ethylphenol                           4-ethylphenol
-4 ethylpyridine                         4-ethylpyridine
-4 ethyltoluene                          1-ethyl-4-methyl-benzene
-4 fluorophenol                          4-fluorophenol
-4 formylpyridine                        pyridine-4-carbaldehyde
-4 hydroxybenzaldehyde                   4-hydroxybenzaldehyde
-4 isopropyltoluene                      1-isopropyl-4-methyl-benzene
-4 methoxyacetophenone                   1-(4-methoxyphenyl)ethanone
-4 methoxyaniline                        4-methoxyaniline
-4 methyl 1h imidazole                   4-methyl-1H-imidazole
-4 methylacetophenone                    1-(p-tolyl)ethanone
-4 methylbenzaldehyde                    4-methylbenzaldehyde
-4 methylpentan 2 ol                     4-methylpentan-2-ol
-4 methylpentan 2 one                    4-methylpentan-2-one
-4 methylpyridine                        4-methylpyridine
-4 n propylphenol                        4-propylphenol
-4 nitroaniline                          4-nitroaniline
-4 nitrophenol                           4-nitrophenol
-4 tert butylphenol                      4-tert-butylphenol
-E 12 dichloroethene                     1,2-dichloroethylene
-E but 2 enal                            but-2-enal
-E hept 2 ene                            hept-2-ene
-E hex 2 enal                            hex-2-enal
-E oct 2 enal                            oct-2-enal
-NN dimethyl p methoxybenzamide          4-methoxy-N,N-dimethyl-benzamide
-NN dimethyl p methylbenzamide           N,N,4-trimethylbenzamide
-NN dimethyl p nitrobenzamide            N,N-dimethyl-4-nitro-benzamide
-NN dimethylaniline                      N,N-dimethylaniline
-NN dimethylbenzamide                    N,N-dimethylbenzamide
-NN dimethylformamide                    N,N-dimethylformamide
-N acetylpyrrolidine                     1-pyrrolidin-1-ylethanone
-N methyl N 222 trifluoroethyl aniline   N-methyl-N-(2,2,2-trifluoroethyl)aniline
-N methylacetamide                       N-methylacetamide
-N methylaniline                         N-methylaniline
-N methylmorpholine                      4-methylmorpholine
-N methylpiperazine                      1-methylpiperazine
-N methylpiperidine                      1-methylpiperidine
-Z 12 dichloroethene                     1,2-dichloroethylene
-Z pent 2 ene                            pent-2-ene
-acenaphthene                            acenaphthene
-acetaldehyde                            acetaldehyde
-acetic acid                             acetic acid
-acetonitrile                            acetonitrile
-acetophenone                            1-phenylethanone
-alpha methylstyrene                     isopropenylbenzene
-ammonia                                 ammonia
-aniline                                 aniline
-anisole                                 anisole
-anthracene                              anthracene
-azetidine                               azetidine
-benzaldehyde                            benzaldehyde
-benzamide                               benzamide
-benzene                                 benzene
-benzonitrile                            benzonitrile
-benzotrifluoride                        trifluoromethylbenzene
-benzyl alcohol                          phenylmethanol
-benzyl bromide                          bromomethylbenzene
-benzyl chloride              chloromethylbenzene
-biphenyl                     biphenyl
-bis 2 chloroethyl ether      1-chloro-2-(2-chloroethoxy)ethane
-bromobenzene                 bromobenzene
-bromoethane                  bromoethane
-bromomethane                 bromomethane
-bromotrifluoromethane        bromo-trifluoro-methane
-but 1 ene                    but-1-ene
-but 1 yne                    but-1-yne
-buta 13 diene                buta-1,3-diene
-butan 1 ol                   butan-1-ol
-butan 2 ol                   butan-2-ol
-butanenitrile                butanenitrile
-butanoic acid                butyric acid
-butanone                     butanal
-butyraldehyde                butanal
-chlorobenzene                chlorobenzene
-chlorodifluoromethane        chloro-difluoro-methane
-chloroethane                 chloroethane
-chloroethylene               chloroethylene
-chlorofluoromethane          chloro-fluoro-methane
-chloromethane                chloromethane
-cis 12 dimethylcyclohexane   1,2-dimethylcyclohexane
-cyanobenzene                 benzonitrile
-cyclohepta 135 triene        cyclohepta-1,3,5-triene
-cycloheptanol                cycloheptanol
-cyclohexane                  cyclohexane
-cyclohexanol                 cyclohexanol
-cyclohexanone                cyclohexanone
-cyclohexene                  cyclohexene
-cyclohexylamine              cyclohexanamine
-cyclopentane                 cyclopentane
-cyclopentanol                cyclopentanol
-cyclopentanone               cyclopentanone
-cyclopentene                 cyclopentene
-cyclopropane                 cyclopropane
-decan 1 ol                   decan-1-ol
-decan 2 one                  decan-2-one
-di isopropyl sulfide         2-isopropylsulfanylpropane
-di n butyl ether             1-butoxybutane
-di n butylamine              N-butylbutan-1-amine
-di n propyl ether            1-propoxypropane
-di n propyl sulfide          1-propylsulfanylpropane
-di n propylamine             N-propylpropan-1-amine
-dibromomethane               dibromomethane
-dichloromethane              dichloromethane
-diethoxymethoxybenzene       diethoxymethoxybenzene
-diethyl disulfide            ethyldisulfanylethane
-diethyl ether                ethoxyethane
-diethyl malonate             diethyl propanedioate
-diethyl succinate            diethyl butanedioate
-diethyl sulfide              ethylsulfanylethane
-diethylamine                 N-ethylethanamine
-diiodomethane                diiodomethane
-diisopropyl ether            2-isopropoxypropane
-diisopropylamine             N-isopropylpropan-2-amine
-dimethoxymethane             dimethoxymethane
-dimethyl disulfide           methyldisulfanylmethane
-dimethyl ether               methoxymethane
-dimethyl sulfate             dimethyl sulfate
-dimethyl sulfide             methylsulfanylmethane
-dimethyl sulfone                methylsulfonylmethane
-dimethyl sulfoxide              methylsulfinylmethane
-dimethylamine                   N-methylmethanamine
-ethanamide                      acetamide
-ethane                          ethane
-ethanethiol                     ethanethiol
-ethanol                         ethanol
-ethene                          ethylene
-ethyl acetate                   ethyl acetate
-ethyl benzoate                  ethyl benzoate
-ethyl butanoate                 ethyl butanoate
-ethyl formate                   ethyl formate
-ethyl hexanoate                 ethyl hexanoate
-ethyl pentanoate                ethyl pentanoate
-ethyl phenyl ether              ethoxybenzene
-ethyl propanoate                ethyl propanoate
-ethylamine                      ethanamine
-ethylbenzene                    ethylbenzene
-fluorene                        9H-fluorene
-fluorobenzene                   fluorobenzene
-fluoromethane                   fluoromethane
-formaldehyde                    formaldehyde
-halothane                       2-bromo-2-chloro-1,1,1-trifluoro-ethane
-hept 1 ene                      hept-1-ene
-hept 1 yne                      hept-1-yne
-heptan 1 ol                     heptan-1-ol
-heptan 2 one                    heptan-2-one
-heptan 4 one                    heptan-4-one
-heptanal                        heptanal
-hex 1 ene                       hex-1-ene
-hex 1 yne                       hex-1-yne
-hexa 15 diene                   hexa-1,5-diene
-hexafluoropropene               1,1,2,3,3,3-hexafluoroprop-1-ene
-hexan 1 ol                      hexan-1-ol
-hexan 2 one                     hexan-2-one
-hexan 3 ol                      hexan-3-ol
-hexanal                         hexanal
-hexanoic acid                   hexanoic acid
-hydrazine                       hydrazine
-hydrogen sulfide                hydrogen sulfide
-imidazole                       imidazole
-indane                          indane
-iodobenzene                     iodobenzene
-iodoethane                      iodoethane
-iodomethane                     iodomethane
-isoamyl acetate                 isopentyl acetate
-isoamyl formate                 isopentyl formate
-isobutyl acetate                isobutyl acetate
-isobutyl formate                isobutyl formate
-isobutyl isobutanoate           isobutyl 2-methylpropanoate
-isobutylbenzene                 isobutylbenzene
-isobutyraldehyde                2-methylpropanal
-isoflurane                      2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-ethane
-isopropyl acetate               isopropyl acetate
-isopropyl formate               isopropyl formate
-isopropylbenzene                cumene
-m bis trifluoromethyl benzene   1,2-bis(trifluoromethyl)benzene
-m cresol                        m-cresol
-m xylene                        m-xylene
-methane                         methane
-methanesulfonyl chloride        methanesulfonyl chloride
-methanethiol                     methanethiol
-methanol                         methanol
-methoxyflurane                   2,2-dichloro-1,1-difluoro-1-methoxy-ethane
-methyl acetate                   methyl acetate
-methyl benzoate                  methyl benzoate
-methyl butanoate                 methyl butanoate
-methyl chloroacetate             methyl 2-chloroacetate
-methyl cyanoacetate              methyl 2-cyanoacetate
-methyl cyclohexanecarboxylate    methyl cyclohexanecarboxylate
-methyl cyclohexyl ketone         1-cyclohexylethanone
-methyl cyclopropanecarboxylate   methyl cyclopropanecarboxylate
-methyl cyclopropyl ketone        1-cyclopropylethanone
-methyl ethyl ether               methoxyethane
-methyl ethyl sulfide             methylsulfanylethane
-methyl formate                   methyl formate
-methyl hexanoate                 methyl hexanoate
-methyl isopropyl ether           2-methoxypropane
-methyl methanesulfonate          methyl methanesulfonate
-methyl octanoate                 methyl octanoate
-methyl p methoxybenzoate         methyl 4-methoxybenzoate
-methyl p nitrobenzoate           methyl 4-nitrobenzoate
-methyl pentanoate                methyl pentanoate
-methyl propanoate                methyl propanoate
-methyl propyl ether              1-methoxypropane
-methyl t butyl ether             2-methoxy-2-methyl-propane
-methyl tert butyl ether          2-methoxy-2-methyl-propane
-methyl trifluoroacetate          methyl 2,2,2-trifluoroacetate
-methyl trimethylacetate          methyl 2,2-dimethylpropanoate
-methylamine                      methanamine
-methylcyclohexane                methylcyclohexane
-methylcyclopentane               methylcyclopentane
-morpholine                       morpholine
-n butane                         butane
-n butanethiol                    butane-1-thiol
-n butyl acetate                  butyl acetate
-n butylacetamide                 hexanamide
-n butylamine                     butan-1-amine
-n butylbenzene                   butylbenzene
-n decane                         decane
-n heptane                        heptane
-n heptylamine                    heptan-1-amine
-n hexane                         hexane
-n hexyl acetate                  hexyl acetate
-n hexylamine                     hexan-1-amine
-n hexylbenzene                   hexylbenzene
-n nonane                         nonane
-n octane                         octane
-n octylamine                     octan-1-amine
-n pentane                        pentane
-n pentyl acetate                 pentyl acetate
-n pentyl propanoate              pentyl propanoate
-n pentylamine                    pentan-1-amine
-n pentylbenzene                  pentylbenzene
-n pentylcyclopentane             pentylcyclopentane
-n propanethiol                   propane-1-thiol
-n propyl acetate                 propyl acetate
-n propyl butyrate                propyl butanoate
-n propyl formate                 propyl formate
-n propyl propanoate              propyl propanoate
-n propylamine                    propan-1-amine
-n propylbenzene                  propylbenzene
-n propylcyclopentane          propylcyclopentane
-naphthalene                   naphthalene
-nitrobenzene                  nitrobenzene
-nitroethane                   1-nitroethane
-nitromethane                  nitromethane
-non 1 ene                     non-1-ene
-nonan 1 ol                    nonan-1-ol
-nonan 2 one                   nonan-2-one
-nonan 5 one                   nonan-5-one
-nonanal                       nonanal
-o cresol                      o-cresol
-o toluidine                   2-methylaniline
-o xylene                      o-xylene
-oct 1 ene                     oct-1-ene
-oct 1 yne                     oct-1-yne
-octan 1 ol                    octan-1-ol
-octan 2 one                   octan-2-one
-octanal                       octanal
-p cresol                      p-cresol
-p dibromobenzene              1,4-dibromobenzene
-p toluidine                   4-methylaniline
-p xylene                      p-xylene
-pent 1 ene                    pent-1-ene
-pent 1 yne                    pent-1-yne
-penta 14 diene                penta-1,4-diene
-pentachloroethane             1,1,1,2,2-pentachloroethane
-pentan 1 ol                   pentan-1-ol
-pentan 2 ol                   pentan-2-ol
-pentan 2 one                  pentan-2-one
-pentan 3 ol                   pentan-3-ol
-pentan 3 one                  pentan-3-one
-pentanal                      pentanal
-pentanenitrile                pentanenitrile
-pentanoic acid                pentanoic acid
-phenanthrene                  phenanthrene
-phenol                        phenol
-phenyl formate                phenyl formate
-phenyl methyl sulfide         methylsulfanylbenzene
-phenyl trifluoroethyl ether   1,2,2-trifluoroethoxybenzene
-piperazine                    piperazine
-piperidine                    piperidine
-prop 2 en 1 ol                prop-2-en-1-ol
-propan 1 ol                   propan-1-ol
-propan 2 ol                   propan-2-ol
-propane                       propane
-propanenitrile                propanenitrile
-propanoic acid                propionic acid
-propanone                     acetone
-propene                       prop-1-ene
-propionaldehyde               propanal
-propyne                       prop-1-yne
-pyrene                        pyrene
-pyridine                      pyridine
-pyrrole                       pyrrole
-pyrrolidine                   pyrrolidine
-quinoline                     quinoline
-sec butylbenzene              sec-butylbenzene
-styrene                       styrene
-teflurane                     2-bromo-1,1,1,2-tetrafluoro-ethane
-tert butylbenzene             tert-butylbenzene
-tetrachloroethene             1,1,2,2-tetrachloroethylene
-tetrachloromethane                          carbon tetrachloride
-tetrafluoromethane                          tetrafluoromethane
-tetrahydrofuran                             tetrahydrofuran
-tetrahydropyran                             tetrahydropyran
-thiophene                                   thiophene
-thiophenol                                  benzenethiol
-toluene                                     toluene
-trans 14 dimethylcyclohexane                1,4-dimethylcyclohexane
-triacetyl glycerol                          3-acetyl-3,4-dihydroxy-4-(hydroxymethyl)hexane-2,5-dione
-tribromomethane                             bromoform
-trichloroethene                             1,1,2-trichloroethylene
-trichloromethane                            chloroform
-triethyl phosphate                          triethyl phosphate
-triethylamine                               N,N-diethylethanamine
-trimethoxy methane                          trimethoxymethane
-trimethoxymethylbenzene                     trimethoxymethylbenzene
-trimethyl phosphate                         trimethyl phosphate
-trimethylamine                              N,N-dimethylmethanamine
-undecan 2 one                               undecan-2-one
+1 methyl imidazole                       1-methylimidazole
+1 methyl pyrrole                         1-methylpyrrole
+1 methylcyclohexene                      1-methylcyclohexene
+1 methylnaphthalene                      1-methylnaphthalene
+1 naphthol                               naphthalen-1-ol
+1 naphthylamine                          naphthalen-1-amine
+1 nitrobutane                            1-nitrobutane
+1 nitropentane                           1-nitropentane
+1 nitropropane                           1-nitropropane
+222 trifluoroethanol                     2,2,2-trifluoroethanol
+224 trimethylpentane                     2,2,4-trimethylpentane
+225 trimethylhexane                      2,2,5-trimethylhexane
+22 dimethylbutane                        2,2-dimethylbutane
+22 dimethylpentane                       2,2-dimethylpentane
+22 dimethylpropane                       neopentane
+234 trimethylpentane                     2,3,4-trimethylpentane
+23 dimethylbuta 13 diene                 2,3-dimethylbuta-1,3-diene
+23 dimethylbutane                        2,3-dimethylbutane
+23 dimethylnaphthalene                   2,3-dimethylnaphthalene
+23 dimethylpentane                       2,3-dimethylpentane
+23 dimethylphenol                        2,3-dimethylphenol
+23 dimethylpyridine                      2,3-dimethylpyridine
+24 dimethylpentan 3 one                  2,4-dimethylpentan-3-one
+24 dimethylpentane                       2,4-dimethylpentane
+24 dimethylphenol                        2,4-dimethylphenol
+24 dimethylpyridine                      2,4-dimethylpyridine
+25 dimethylphenol                        2,5-dimethylphenol
+25 dimethylpyridine                      2,5-dimethylpyridine
+25 dimethyltetrahydrofuran               2,5-dimethyltetrahydrofuran
+26 dimethylaniline                       2,6-dimethylaniline
+26 dimethylnaphthalene                   2,6-dimethylnaphthalene
+26 dimethylphenol                        2,6-dimethylphenol
+26 dimethylpyridine                      2,6-dimethylpyridine
+2 bromo 2 methylpropane                  2-bromo-2-methyl-propane
+2 bromopropane                           2-bromopropane
+2 butoxyethanol                          2-butoxyethanol
+2 chloro 111 trimethoxyethane            2-chloro-1,1,1-trimethoxy-ethane
+2 chloro 2 methylpropane                 2-chloro-2-methyl-propane
+2 chloroaniline                          2-chloroaniline
+2 chlorobutane                           2-chlorobutane
+2 chlorophenol                           2-chlorophenol
+2 chloropropane                          2-chloropropane
+2 chloropyridine                         2-chloropyridine
+2 chlorotoluene                          1-chloro-2-methyl-benzene
+2 ethoxyethanol                          2-ethoxyethanol
+2 ethylpyrazine                          2-ethylpyrazine
+2 ethylpyridine                          2-ethylpyridine
+2 ethyltoluene                           1-ethyl-2-methyl-benzene
+2 fluorophenol                           2-fluorophenol
+2 iodophenol                             2-iodophenol
+2 iodopropane                            2-iodopropane
+2 isobutylpyrazine                       2-isobutylpyrazine
+2 methoxy 111 trimethoxyethane           1,1,1,2-tetramethoxyethane
+2 methoxyaniline                         2-methoxyaniline
+2 methoxyethanamine                      2-methoxyethanamine
+2 methoxyethanol                         2-methoxyethanol
+2 methoxyphenol                          2-methoxyphenol
+2 methyl but 2 ene                       2-methylbut-2-ene
+2 methylbut 2 ene                        2-methylbut-2-ene
+2 methylbuta 13 diene                    isoprene
+2 methylbutan 1 ol                       2-methylbutan-1-ol
+2 methylbutan 2 ol                       2-methylbutan-2-ol
+2 methylbutane                           isopentane
+2 methylhexane                           2-methylhexane
+2 methylpent 1 ene                       2-methylpent-1-ene
+2 methylpentan 2 ol                      2-methylpentan-2-ol
+2 methylpentan 3 ol                      2-methylpentan-3-ol
+2 methylpentane                          isohexane
+2 methylpropan 1 ol                      2-methylpropan-1-ol
+2 methylpropan 2 ol                      2-methylpropan-2-ol
+2 methylpropane                          isobutane
+2 methylpropene                          2-methylprop-1-ene
+2 methylpyrazine                         2-methylpyrazine
+2 methylpyridine                         2-methylpyridine
+2 methyltetrahydrofuran                  2-methyltetrahydrofuran
+2 methylthiophene                        2-methylthiophene
+2 naphthol                               naphthalen-2-ol
+2 naphthylamine                          naphthalen-2-amine
+2 nitroaniline                           2-nitroaniline
+2 nitrophenol                            2-nitrophenol
+2 nitropropane                           2-nitropropane
+2 nitrotoluene                           1-methyl-2-nitro-benzene
+2 phenylethanol                          2-phenylethanol
+2 propoxyethanol                         2-propoxyethanol
+333 trimethoxypropionitrile              3,3,3-trimethoxypropanenitrile
+33 dimethylbutan 2 one                   3,3-dimethylbutan-2-one
+33 dimethylpentane                       3,3-dimethylpentane
+34 dimethylphenol                        3,4-dimethylphenol
+34 dimethylpyridine                      3,4-dimethylpyridine
+35 dimethylphenol                        3,5-dimethylphenol
+35 dimethylpyridine                      3,5-dimethylpyridine
+3 acetylpyridine                         1-(3-pyridyl)ethanone
+3 chloroaniline                          3-chloroaniline
+3 chlorophenol                           3-chlorophenol
+3 chloroprop 1 ene                       3-chloroprop-1-ene
+3 chloropyridine                         3-chloropyridine
+3 cyanophenol                            3-hydroxybenzonitrile
+3 cyanopyridine                          pyridine-3-carbonitrile
+3 ethylphenol                            3-ethylphenol
+3 ethylpyridine                          3-ethylpyridine
+3 formylpyridine                         pyridine-3-carbaldehyde
+3 hydroxybenzaldehyde                    3-hydroxybenzaldehyde
+3 methoxyaniline                         3-methoxyaniline
+3 methoxyphenol                          3-methoxyphenol
+3 methyl 1h indole                       3-methyl-1H-indole
+3 methyl but 1 ene                       3-methylbut-1-ene
+3 methylbut 1 ene                        3-methylbut-1-ene
+3 methylbutan 1 ol                       3-methylbutan-1-ol
+3 methylbutan 2 one                      3-methylbutan-2-one
+3 methylbutanoic acid                    3-methylbutanoic acid
+3 methylheptane                          3-methylheptane
+3 methylhexane                           3-methylhexane
+3 methylpentane                          3-methylpentane
+3 methylpyridine                         3-methylpyridine
+3 nitroaniline                           3-nitroaniline
+3 nitrophenol                            3-nitrophenol
+3 nitrotoluene                           1-methyl-3-nitro-benzene
+3 phenylpropanol                         3-phenylpropan-1-ol
+4 acetylpyridine                         1-(4-pyridyl)ethanone
+4 bromophenol                            4-bromophenol
+4 bromotoluene                           1-bromo-4-methyl-benzene
+4 chloro 3 methylphenol                  4-chloro-3-methyl-phenol
+4 chloroaniline                          4-chloroaniline
+4 chlorophenol                           4-chlorophenol
+4 cyanophenol                            4-hydroxybenzonitrile
+4 cyanopyridine                          pyridine-4-carbonitrile
+4 ethylphenol                            4-ethylphenol
+4 ethylpyridine                          4-ethylpyridine
+4 ethyltoluene                           1-ethyl-4-methyl-benzene
+4 fluorophenol                           4-fluorophenol
+4 formylpyridine                         pyridine-4-carbaldehyde
+4 hydroxybenzaldehyde                    4-hydroxybenzaldehyde
+4 isopropyltoluene                       1-isopropyl-4-methyl-benzene
+4 methoxyacetophenone                    1-(4-methoxyphenyl)ethanone
+4 methoxyaniline                         4-methoxyaniline
+4 methyl 1h imidazole                    4-methyl-1H-imidazole
+4 methylacetophenone                     1-(p-tolyl)ethanone
+4 methylbenzaldehyde                     4-methylbenzaldehyde
+4 methylpentan 2 ol                      4-methylpentan-2-ol
+4 methylpentan 2 one                     4-methylpentan-2-one
+4 methylpyridine                         4-methylpyridine
+4 n propylphenol                         4-propylphenol
+4 nitroaniline                           4-nitroaniline
+4 nitrophenol                            4-nitrophenol
+4 tert butylphenol                       4-tert-butylphenol
+E 12 dichloroethene                      1,2-dichloroethylene
+E but 2 enal                             but-2-enal
+E hept 2 ene                             hept-2-ene
+E hex 2 enal                             hex-2-enal
+E oct 2 enal                             oct-2-enal
+NN dimethyl p methoxybenzamide           4-methoxy-N,N-dimethyl-benzamide
+NN dimethyl p methylbenzamide            N,N,4-trimethylbenzamide
+NN dimethyl p nitrobenzamide             N,N-dimethyl-4-nitro-benzamide
+NN dimethylaniline                       N,N-dimethylaniline
+NN dimethylbenzamide                     N,N-dimethylbenzamide
+NN dimethylformamide                     N,N-dimethylformamide
+N acetylpyrrolidine                      1-pyrrolidin-1-ylethanone
+N methyl N 222 trifluoroethyl aniline    N-methyl-N-(2,2,2-trifluoroethyl)aniline
+N methylacetamide                        N-methylacetamide
+N methylaniline                          N-methylaniline
+N methylmorpholine                       4-methylmorpholine
+N methylpiperazine                       1-methylpiperazine
+N methylpiperidine                       1-methylpiperidine
+Z 12 dichloroethene                      1,2-dichloroethylene
+Z pent 2 ene                             pent-2-ene
+acenaphthene                             acenaphthene
+acetaldehyde                             acetaldehyde
+acetic acid                              acetic acid
+acetonitrile                             acetonitrile
+acetophenone                             1-phenylethanone
+alpha methylstyrene                      isopropenylbenzene
+ammonia                                  ammonia
+aniline                                  aniline
+anisole                                  anisole
+anthracene                               anthracene
+azetidine                                azetidine
+benzaldehyde                             benzaldehyde
+benzamide                                benzamide
+benzene                                  benzene
+benzonitrile                             benzonitrile
+benzotrifluoride                         trifluoromethylbenzene
+benzyl alcohol                           phenylmethanol
+benzyl bromide                           bromomethylbenzene
+benzyl chloride                          chloromethylbenzene
+biphenyl                                 biphenyl
+bis 2 chloroethyl ether                  1-chloro-2-(2-chloroethoxy)ethane
+bromobenzene                             bromobenzene
+bromoethane                              bromoethane
+bromomethane                             bromomethane
+bromotrifluoromethane                    bromo-trifluoro-methane
+but 1 ene                                but-1-ene
+but 1 yne                                but-1-yne
+buta 13 diene                            buta-1,3-diene
+butan 1 ol                               butan-1-ol
+butan 2 ol                               butan-2-ol
+butanenitrile                            butanenitrile
+butanoic acid                            butyric acid
+butanone                                 butanal
+butyraldehyde                            butanal
+chlorobenzene                            chlorobenzene
+chlorodifluoromethane                    chloro-difluoro-methane
+chloroethane                             chloroethane
+chloroethylene                           chloroethylene
+chlorofluoromethane                      chloro-fluoro-methane
+chloromethane                            chloromethane
+cis 12 dimethylcyclohexane               1,2-dimethylcyclohexane
+cyanobenzene                             benzonitrile
+cyclohepta 135 triene                    cyclohepta-1,3,5-triene
+cycloheptanol                            cycloheptanol
+cyclohexane                              cyclohexane
+cyclohexanol                             cyclohexanol
+cyclohexanone                            cyclohexanone
+cyclohexene                              cyclohexene
+cyclohexylamine                          cyclohexanamine
+cyclopentane                             cyclopentane
+cyclopentanol                            cyclopentanol
+cyclopentanone                           cyclopentanone
+cyclopentene                             cyclopentene
+cyclopropane                             cyclopropane
+decan 1 ol                               decan-1-ol
+decan 2 one                              decan-2-one
+di isopropyl sulfide                     2-isopropylsulfanylpropane
+di n butyl ether                         1-butoxybutane
+di n butylamine                          N-butylbutan-1-amine
+di n propyl ether                        1-propoxypropane
+di n propyl sulfide                      1-propylsulfanylpropane
+di n propylamine                         N-propylpropan-1-amine
+dibromomethane                           dibromomethane
+dichloromethane                          dichloromethane
+diethoxymethoxybenzene                   diethoxymethoxybenzene
+diethyl disulfide                        ethyldisulfanylethane
+diethyl ether                            ethoxyethane
+diethyl malonate                         diethyl propanedioate
+diethyl succinate                        diethyl butanedioate
+diethyl sulfide                          ethylsulfanylethane
+diethylamine                             N-ethylethanamine
+diiodomethane                            diiodomethane
+diisopropyl ether                        2-isopropoxypropane
+diisopropylamine                         N-isopropylpropan-2-amine
+dimethoxymethane                         dimethoxymethane
+dimethyl disulfide                       methyldisulfanylmethane
+dimethyl ether                           methoxymethane
+dimethyl sulfate                         dimethyl sulfate
+dimethyl sulfide                         methylsulfanylmethane
+dimethyl sulfone                         methylsulfonylmethane
+dimethyl sulfoxide                       methylsulfinylmethane
+dimethylamine                            N-methylmethanamine
+ethanamide                               acetamide
+ethane                                   ethane
+ethanethiol                              ethanethiol
+ethanol                                  ethanol
+ethene                                   ethylene
+ethyl acetate                            ethyl acetate
+ethyl benzoate                           ethyl benzoate
+ethyl butanoate                          ethyl butanoate
+ethyl formate                            ethyl formate
+ethyl hexanoate                          ethyl hexanoate
+ethyl pentanoate                         ethyl pentanoate
+ethyl phenyl ether                       ethoxybenzene
+ethyl propanoate                         ethyl propanoate
+ethylamine                               ethanamine
+ethylbenzene                             ethylbenzene
+fluorene                                 9H-fluorene
+fluorobenzene                            fluorobenzene
+fluoromethane                            fluoromethane
+formaldehyde                             formaldehyde
+halothane                                2-bromo-2-chloro-1,1,1-trifluoro-ethane
+hept 1 ene                               hept-1-ene
+hept 1 yne                               hept-1-yne
+heptan 1 ol                              heptan-1-ol
+heptan 2 one                             heptan-2-one
+heptan 4 one                             heptan-4-one
+heptanal                                 heptanal
+hex 1 ene                                hex-1-ene
+hex 1 yne                                hex-1-yne
+hexa 15 diene                            hexa-1,5-diene
+hexafluoropropene                        1,1,2,3,3,3-hexafluoroprop-1-ene
+hexan 1 ol                               hexan-1-ol
+hexan 2 one                              hexan-2-one
+hexan 3 ol                               hexan-3-ol
+hexanal                                  hexanal
+hexanoic acid                            hexanoic acid
+hydrazine                                hydrazine
+hydrogen sulfide                         hydrogen sulfide
+imidazole                                imidazole
+indane                                   indane
+iodobenzene                              iodobenzene
+iodoethane                               iodoethane
+iodomethane                              iodomethane
+isoamyl acetate                          isopentyl acetate
+isoamyl formate                          isopentyl formate
+isobutyl acetate                         isobutyl acetate
+isobutyl formate                         isobutyl formate
+isobutyl isobutanoate                    isobutyl 2-methylpropanoate
+isobutylbenzene                          isobutylbenzene
+isobutyraldehyde                         2-methylpropanal
+isoflurane                               2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-ethane
+isopropyl acetate                        isopropyl acetate
+isopropyl formate                        isopropyl formate
+isopropylbenzene                         cumene
+m bis trifluoromethyl benzene            1,2-bis(trifluoromethyl)benzene
+m cresol                                 m-cresol
+m xylene                                 m-xylene
+methane                                  methane
+methanesulfonyl chloride                 methanesulfonyl chloride
+methanethiol                             methanethiol
+methanol                                 methanol
+methoxyflurane                           2,2-dichloro-1,1-difluoro-1-methoxy-ethane
+methyl acetate                           methyl acetate
+methyl benzoate                          methyl benzoate
+methyl butanoate                         methyl butanoate
+methyl chloroacetate                     methyl 2-chloroacetate
+methyl cyanoacetate                      methyl 2-cyanoacetate
+methyl cyclohexanecarboxylate            methyl cyclohexanecarboxylate
+methyl cyclohexyl ketone                 1-cyclohexylethanone
+methyl cyclopropanecarboxylate           methyl cyclopropanecarboxylate
+methyl cyclopropyl ketone                1-cyclopropylethanone
+methyl ethyl ether                       methoxyethane
+methyl ethyl sulfide                     methylsulfanylethane
+methyl formate                           methyl formate
+methyl hexanoate                         methyl hexanoate
+methyl isopropyl ether                   2-methoxypropane
+methyl methanesulfonate                  methyl methanesulfonate
+methyl octanoate                         methyl octanoate
+methyl p methoxybenzoate                 methyl 4-methoxybenzoate
+methyl p nitrobenzoate                   methyl 4-nitrobenzoate
+methyl pentanoate                        methyl pentanoate
+methyl propanoate                        methyl propanoate
+methyl propyl ether                      1-methoxypropane
+methyl t butyl ether                     2-methoxy-2-methyl-propane
+methyl tert butyl ether                  2-methoxy-2-methyl-propane
+methyl trifluoroacetate                  methyl 2,2,2-trifluoroacetate
+methyl trimethylacetate                  methyl 2,2-dimethylpropanoate
+methylamine                              methanamine
+methylcyclohexane                        methylcyclohexane
+methylcyclopentane                       methylcyclopentane
+morpholine                               morpholine
+n butane                                 butane
+n butanethiol                            butane-1-thiol
+n butyl acetate                          butyl acetate
+n butylacetamide                         hexanamide
+n butylamine                             butan-1-amine
+n butylbenzene                           butylbenzene
+n decane                                 decane
+n heptane                                heptane
+n heptylamine                            heptan-1-amine
+n hexane                                 hexane
+n hexyl acetate                          hexyl acetate
+n hexylamine                             hexan-1-amine
+n hexylbenzene                           hexylbenzene
+n nonane                                 nonane
+n octane                                 octane
+n octylamine                             octan-1-amine
+n pentane                                pentane
+n pentyl acetate                         pentyl acetate
+n pentyl propanoate                      pentyl propanoate
+n pentylamine                            pentan-1-amine
+n pentylbenzene                          pentylbenzene
+n pentylcyclopentane                     pentylcyclopentane
+n propanethiol                           propane-1-thiol
+n propyl acetate                         propyl acetate
+n propyl butyrate                        propyl butanoate
+n propyl formate                         propyl formate
+n propyl propanoate                      propyl propanoate
+n propylamine                            propan-1-amine
+n propylbenzene                          propylbenzene
+n propylcyclopentane                     propylcyclopentane
+naphthalene                              naphthalene
+nitrobenzene                             nitrobenzene
+nitroethane                              1-nitroethane
+nitromethane                             nitromethane
+non 1 ene                                non-1-ene
+nonan 1 ol                               nonan-1-ol
+nonan 2 one                              nonan-2-one
+nonan 5 one                              nonan-5-one
+nonanal                                  nonanal
+o cresol                                 o-cresol
+o toluidine                              2-methylaniline
+o xylene                                 o-xylene
+oct 1 ene                                oct-1-ene
+oct 1 yne                                oct-1-yne
+octan 1 ol                               octan-1-ol
+octan 2 one                              octan-2-one
+octanal                                  octanal
+p cresol                                 p-cresol
+p dibromobenzene                         1,4-dibromobenzene
+p toluidine                              4-methylaniline
+p xylene                                 p-xylene
+pent 1 ene                               pent-1-ene
+pent 1 yne                               pent-1-yne
+penta 14 diene                           penta-1,4-diene
+pentachloroethane                        1,1,1,2,2-pentachloroethane
+pentan 1 ol                              pentan-1-ol
+pentan 2 ol                              pentan-2-ol
+pentan 2 one                             pentan-2-one
+pentan 3 ol                              pentan-3-ol
+pentan 3 one                             pentan-3-one
+pentanal                                 pentanal
+pentanenitrile                           pentanenitrile
+pentanoic acid                           pentanoic acid
+phenanthrene                             phenanthrene
+phenol                                   phenol
+phenyl formate                           phenyl formate
+phenyl methyl sulfide                    methylsulfanylbenzene
+phenyl trifluoroethyl ether              1,2,2-trifluoroethoxybenzene
+piperazine                               piperazine
+piperidine                               piperidine
+prop 2 en 1 ol                           prop-2-en-1-ol
+propan 1 ol                              propan-1-ol
+propan 2 ol                              propan-2-ol
+propane                                  propane
+propanenitrile                           propanenitrile
+propanoic acid                           propionic acid
+propanone                                acetone
+propene                                  prop-1-ene
+propionaldehyde                          propanal
+propyne                                  prop-1-yne
+pyrene                                   pyrene
+pyridine                                 pyridine
+pyrrole                                  pyrrole
+pyrrolidine                              pyrrolidine
+quinoline                                quinoline
+sec butylbenzene                         sec-butylbenzene
+styrene                                  styrene
+teflurane                                2-bromo-1,1,1,2-tetrafluoro-ethane
+tert butylbenzene                        tert-butylbenzene
+tetrachloroethene                        1,1,2,2-tetrachloroethylene
+tetrachloromethane                       carbon tetrachloride
+tetrafluoromethane                       tetrafluoromethane
+tetrahydrofuran                          tetrahydrofuran
+tetrahydropyran                          tetrahydropyran
+thiophene                                thiophene
+thiophenol                               benzenethiol
+toluene                                  toluene
+trans 14 dimethylcyclohexane             1,4-dimethylcyclohexane
+triacetyl glycerol                       3-acetyl-3,4-dihydroxy-4-(hydroxymethyl)hexane-2,5-dione
+tribromomethane                          bromoform
+trichloroethene                          1,1,2-trichloroethylene
+trichloromethane                         chloroform
+triethyl phosphate                       triethyl phosphate
+triethylamine                            N,N-diethylethanamine
+trimethoxy methane                       trimethoxymethane
+trimethoxymethylbenzene                  trimethoxymethylbenzene
+trimethyl phosphate                      trimethyl phosphate
+trimethylamine                           N,N-dimethylmethanamine
+undecan 2 one                            undecan-2-one
 
 
 Table 4 shows  mean solvent accessible surface areas  and volumes from
