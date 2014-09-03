@@ -18,20 +18,29 @@
           (loop (cons sexp acc))))))
 
 ;;;
-;;; List of *.prmtop files with force field parameters and topology:
+;;; List  of  entries  with   *.prmtop  (force  field  parameters  and
+;;; topology),  *.crd (coordinates) and  *.mol2 (coordinates  an more)
+;;; files in the database.
 ;;;
-(define prmtop
-  (with-input-from-file "./guile/prmtop.scm" slurp))
+(define entries
+  (with-input-from-file "./guile/entries.scm" slurp))
+
+(define (prmtop-path entry)
+  (string-append "./prmcrd/" entry ".prmtop"))
+
+(define (mol2-path entry)
+  (string-append "./charged_mol2files/" entry ".mol2"))
 
 ;;;
 ;;; This succeds, though  because of symbols such as  #{5E16.8}# it is
 ;;; not clear if it should:
 ;;;
 (if #f
-    (let ((contents (map (lambda (path)
-                           (with-input-from-file (string-append "./prmcrd/" path) slurp))
-                         prmtop)))
-      (pretty-print (length contents))))
+    (let ((contents (map (lambda (entry)
+                           (with-input-from-file (prmtop-path entry) slurp))
+                         entries)))
+      (pretty-print (length contents))
+      (exit 0)))
 
 
 ;;
@@ -135,11 +144,11 @@
 
 (let ((selection (delete-duplicates
                   (append-map
-                   (lambda (path)
-                     (let ((parsed (with-input-from-file (string-append "./prmcrd/" path)
+                   (lambda (entry)
+                     (let ((parsed (with-input-from-file (prmtop-path entry)
                                      prmtop-read)))
                        (assoc-ref parsed 'AMBER_ATOM_TYPE)))
-                   prmtop))))
+                   entries))))
   (pretty-print (map string->symbol
                      (sort (map symbol->string selection)
                            string<))))
