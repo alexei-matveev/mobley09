@@ -32,21 +32,25 @@
   (string-append "./charged_mol2files/" entry ".mol2"))
 
 ;;;
-;;; This succeds, though  because of symbols such as  #{5E16.8}# it is
-;;; not clear if it should:
+;;; This succeds,  both for *.prmtop and *.mol2  files. Though because
+;;; of  symbols such  as #{5E16.8}#  and @<TRIPOS>MOLECULE  it  is not
+;;; clear if it should:
 ;;;
 (if #f
     (let ((contents (map (lambda (entry)
-                           (with-input-from-file (prmtop-path entry) slurp))
+                           (with-input-from-file
+                               ;; (prmtop-path entry)
+                               (mol2-path entry)
+                             slurp))
                          entries)))
-      (pretty-print (length contents))
+      (pretty-print contents)
       (exit 0)))
 
 
 ;;
 ;; FIXME: slurps the whole input into a list, yileds that elementwise:
 ;;
-(define (make-greedy-tokenizer)
+(define (make-greedy-tokenizer make-token)
   (let ((*buf* (slurp)))
     ;; (pretty-print *buf*)
     (lambda ()
@@ -59,16 +63,16 @@
 (define (location)
   'undefined)
 
-(define (keyword? token)
+(define (prmtop-keyword? token)
   (and (symbol? token)
        (let ((string (symbol->string token)))
          (string-prefix? "%" string))))
 
-(define (make-token token)
+(define (make-prmtop-token token)
   ;; (pretty-print (list 'TOKEN: token))
   (cond
    ((eq? token '*eoi) '*eoi*)
-   ((keyword? token)
+   ((prmtop-keyword? token)
     (make-lexical-token token (location) token)) ; %FLAG, %FORMAT
    ((symbol? token)
     (make-lexical-token 'SYMBOL (location) token))
@@ -140,7 +144,9 @@
 
 
 (define (prmtop-read)
-  ((make-prmtop-parser) (make-greedy-tokenizer) error))
+  (let ((one-shot-parser (make-prmtop-parser))
+        (stateful-tokenizer (make-greedy-tokenizer make-prmtop-token)))
+    (one-shot-parser stateful-tokenizer error)))
 
 (let ((selection (delete-duplicates
                   (append-map
