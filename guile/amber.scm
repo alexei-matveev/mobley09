@@ -68,12 +68,22 @@
        (let ((string (symbol->string token)))
          (string-prefix? "%" string))))
 
+(define (mol2-keyword? token)
+  (and (symbol? token)
+       (let ((string (symbol->string token)))
+         (string-prefix? "@<TRIPOS>" string))))
+
+;;;
+;;; FIXME: mol2 and prmtop parsers share this, they should not:
+;;;
 (define (make-prmtop-token token)
-  ;; (pretty-print (list 'TOKEN: token))
+  ;; (pk (list 'TOKEN: token))
   (cond
    ((eq? token '*eoi) '*eoi*)
    ((prmtop-keyword? token)
     (make-lexical-token token (location) token)) ; %FLAG, %FORMAT
+   ((mol2-keyword? token)
+    (make-lexical-token token (location) token)) ; @<TRIPOS>MOLECULE
    ((symbol? token)
     (make-lexical-token 'SYMBOL (location) token))
    ((string? token)
@@ -86,6 +96,9 @@
     (make-lexical-token 'DATA (location) token)) ; %FORMAT list
    ))
 
+;;;
+;;; www.tripos.com/data/support/mol2.pdf
+;;;
 
 ;;
 ;; Reverse engineered grammar:
@@ -142,6 +155,100 @@
     (doubles+ INEXACT): (cons $2 $1))
    ))
 
+(define (make-mol2-parser)
+  (lalr-parser
+   ;;
+   ;; Terminals:
+   ;;
+   (@<TRIPOS>MOLECULE
+    @<TRIPOS>ATOM
+    @<TRIPOS>BOND
+    @<TRIPOS>SUBSTRUCTURE
+    @<TRIPOS>COMMENT
+    SYMBOL STRING EXACT INEXACT DATA)
+
+   ;;
+   ;; Productions:
+   ;;
+
+   ;; Version info is of no interest here:
+   (input
+    (sections+): (reverse $1))
+
+   (sections+
+    (section) : (list $1)
+    (sections+ section) : (cons $2 $1))
+
+   ;; Some sections have no data,  just an empty line. Format is of no
+   ;; interest here:
+   (section
+    (@<TRIPOS>MOLECULE SYMBOL integers+ SYMBOL SYMBOL): (list $1 $2 (reverse $3) $4 $5)
+    (@<TRIPOS>ATOM atom-rows+): (cons $1 (reverse $2))
+    (@<TRIPOS>BOND bond-rows+): (cons $1 (reverse $2))
+    (@<TRIPOS>SUBSTRUCTURE subst-rows+): (cons $1 (reverse $2))
+    (@<TRIPOS>COMMENT symbols*): (cons $1 (reverse $2)))
+
+   (atom-rows+
+    (atom-row): (list $1)
+    (atom-rows+ atom-row): (cons $2 $1))
+
+   (atom-row
+    (EXACT SYMBOL doubles+ SYMBOL EXACT SYMBOL INEXACT): (list $1 $2 (reverse $3) $4 $5 $6 $7))
+
+   (bond-rows+
+    (bond-row): (list $1)
+    (bond-rows+ bond-row): (cons $2 $1))
+
+   (bond-row
+    (EXACT EXACT EXACT bond-type): (list $1 $2 $3 $4))
+
+   (bond-type
+    (EXACT): $1
+    (SYMBOL): $1)
+
+   (subst-rows+
+    (subst-row): (list $1)
+    (subst-rows+ subst-row): (cons $2 $1))
+
+   (subst-row
+    (EXACT SYMBOL EXACT): (list $1 $2 $3))
+
+   ;; Sections seem to be uniform arrays:
+   (data+
+    (integers+): (reverse $1)
+    (doubles+): (reverse $1)
+    (symbols+): (reverse $1))
+
+   (symbols*
+    (symbols+): $1
+    (): '())
+
+   (symbols+
+    (SYMBOL): (list $1)
+    (symbols+ SYMBOL): (cons $2 $1))
+
+   (integers+
+    (EXACT): (list $1)
+    (integers+ EXACT): (cons $2 $1))
+
+   (doubles+
+    (INEXACT): (list $1)
+    (doubles+ INEXACT): (cons $2 $1))
+   ))
+
+
+(define (mol2-read)
+  (let ((one-shot-parser (make-mol2-parser))
+        (stateful-tokenizer (make-greedy-tokenizer make-prmtop-token)))
+    (one-shot-parser stateful-tokenizer error)))
+
+
+(let ((parsed (map
+                  (lambda (entry)
+                    (with-input-from-file (mol2-path entry) mol2-read))
+                  entries)))
+  (pretty-print parsed)
+  (exit 0))
 
 (define (prmtop-read)
   (let ((one-shot-parser (make-prmtop-parser))
@@ -151,7 +258,8 @@
 (let ((selection (delete-duplicates
                   (append-map
                    (lambda (entry)
-                     (let ((parsed (with-input-from-file (prmtop-path entry)
+                     (let ((parsed (with-input-from-file
+                                       (prmtop-path entry)
                                      prmtop-read)))
                        (assoc-ref parsed 'AMBER_ATOM_TYPE)))
                    entries))))
