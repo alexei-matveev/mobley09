@@ -4,6 +4,7 @@
 ;;; guile -s guile/amber.scm
 ;;;
 (use-modules (system base lalr))
+(use-modules (srfi srfi-1))
 (use-modules (ice-9 pretty-print))
 
 ;;;
@@ -132,9 +133,13 @@
 (define (prmtop-read)
   ((make-prmtop-parser) (make-greedy-tokenizer) error))
 
-(for-each
- (lambda (path)
-   (let ((parsed (with-input-from-file (string-append "./prmcrd/" path)
-                   prmtop-read)))
-     (pretty-print (cons path parsed))))
- prmtop)
+(let ((selection (delete-duplicates
+                  (append-map
+                   (lambda (path)
+                     (let ((parsed (with-input-from-file (string-append "./prmcrd/" path)
+                                     prmtop-read)))
+                       (assoc-ref parsed 'AMBER_ATOM_TYPE)))
+                   prmtop))))
+  (pretty-print (map string->symbol
+                     (sort (map symbol->string selection)
+                           string<))))
