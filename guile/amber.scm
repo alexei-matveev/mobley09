@@ -236,33 +236,58 @@
     (doubles+ INEXACT): (cons $2 $1))
    ))
 
-
-(define (mol2-read)
-  (let ((one-shot-parser (make-mol2-parser))
-        (stateful-tokenizer (make-greedy-tokenizer make-prmtop-token)))
-    (one-shot-parser stateful-tokenizer error)))
-
-
-(let ((parsed (map
-                  (lambda (entry)
-                    (with-input-from-file (mol2-path entry) mol2-read))
-                  entries)))
-  (pretty-print parsed)
-  (exit 0))
-
+;;;
+;;; Reader for *.prmtop files from DB:
+;;;
 (define (prmtop-read)
   (let ((one-shot-parser (make-prmtop-parser))
         (stateful-tokenizer (make-greedy-tokenizer make-prmtop-token)))
     (one-shot-parser stateful-tokenizer error)))
 
-(let ((selection (delete-duplicates
-                  (append-map
-                   (lambda (entry)
-                     (let ((parsed (with-input-from-file
-                                       (prmtop-path entry)
-                                     prmtop-read)))
-                       (assoc-ref parsed 'AMBER_ATOM_TYPE)))
-                   entries))))
-  (pretty-print (map string->symbol
-                     (sort (map symbol->string selection)
-                           string<))))
+;;;
+;;; Reader for MOL2 files from DB:
+;;;
+(define (mol2-read)
+  (let ((one-shot-parser (make-mol2-parser))
+        (stateful-tokenizer (make-greedy-tokenizer make-prmtop-token)))
+    (one-shot-parser stateful-tokenizer error)))
+
+;;;
+;;; Get MOL2 contents for the entry:
+;;;
+(define (mol2-get entry)
+  (with-input-from-file (mol2-path entry) mol2-read))
+
+;;;
+;;; Get *.prmtop contents for the entry:
+;;;
+(define (prmtop-get entry)
+  (with-input-from-file (prmtop-path entry) prmtop-read))
+
+(let ((parsed (map (lambda (entry) (mol2-get entry))
+                   entries)))
+  (pretty-print (length parsed)))
+
+
+;;;
+;;; FIXME: inefficient:
+;;;
+(define (get-unique-symbols get-one)
+  (let ((selection (delete-duplicates (append-map get-one entries))))
+    (map string->symbol
+         (sort (map symbol->string selection)
+               string<))))
+
+(if #f
+    (let ((selection (get-unique-symbols (lambda (entry)
+                                           (let ((parsed (prmtop-get entry)))
+                                             (assoc-ref parsed 'AMBER_ATOM_TYPE))))))
+      (pretty-print selection)))
+
+(let ((selection (get-unique-symbols (lambda (entry)
+                                       (let* ((parsed (mol2-get entry))
+                                              (atoms (assoc-ref parsed '@<TRIPOS>ATOM)))
+                                         (map (lambda (row) (list-ref row 3)) atoms))))))
+  (pretty-print selection)
+  (pretty-print (length selection)))
+
