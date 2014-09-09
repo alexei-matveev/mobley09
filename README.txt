@@ -18,3 +18,12 @@ All of  the 44  used ones are  listed.  On  the other hand  Mol2 files
 refer to only 18 unique SYBYL atom types:
 
   Br C.1 C.2 C.3 Cl F H I N.1 N.2 N.3 O.2 O.3 P.3 S.1 S.2 S.3 S.O2
+
+The charges  specified in  Mol2 and Amber  parameter files  are mostly
+consistent, except  for these three entries listed  here together with
+the max deviation of site charges in natural units.
+
+  ("hex_1_yne" 0.3276)
+  ("methyl_p_nitrobenzoate" 0.3298)
+  ("NN_dimethyl_p_nitrobenzamide" 0.7870999999999999)
+

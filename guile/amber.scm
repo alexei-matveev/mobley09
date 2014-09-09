@@ -34,9 +34,10 @@
 (define (get-gaff)
   (with-input-from-file "./guile/gaff-vdw.scm" slurp))
 
-(let ((gaff (get-gaff)))
-  (pretty-print (map first gaff))
-  (pretty-print (length gaff)))
+(if #f
+    (let ((gaff (get-gaff)))
+      (pretty-print (map first gaff))
+      (pretty-print (length gaff))))
 
 
 ;;;
@@ -272,10 +273,35 @@
 (define (prmtop-get entry)
   (with-input-from-file (prmtop-path entry) prmtop-read))
 
-(let ((parsed (map (lambda (entry) (mol2-get entry))
-                   entries)))
-  (pretty-print (length parsed)))
+(if #f
+    (let ((parsed (map (lambda (entry) (mol2-get entry))
+                       entries)))
+      (pretty-print (length parsed))))
 
+
+(define (max-charge-diff entry)
+  (let ((mol2-atoms (assoc-ref (mol2-get entry) '@<TRIPOS>ATOM))
+        (prmtop-charges (assoc-ref (prmtop-get entry) 'CHARGE)))
+    (let ((mol2-charges (map (lambda (row)
+                               (list-ref row 6))
+                             mol2-atoms))
+          (prmtop-charges (map (lambda (amber-charge)
+                                 (/ amber-charge 18.2223))
+                               prmtop-charges)))
+      ;; (pretty-print mol2-charges)
+      ;; (pretty-print prmtop-charges)
+      (apply max (map abs
+                      (map - mol2-charges prmtop-charges))))))
+
+(let ((max-diff (apply max (map
+                            (lambda (entry)
+                              (let ((diff (max-charge-diff entry)))
+                                (when (> diff 1.0e-5)
+                                      (pretty-print (list entry diff)))
+                                diff))
+                            entries))))
+  (pretty-print max-diff))
+(exit 0)
 
 ;;;
 ;;; FIXME: inefficient:
@@ -304,4 +330,5 @@
                                          (map (lambda (row) (list-ref row 3)) atoms))))))
   (pretty-print selection)
   (pretty-print (length selection)))
+
 
