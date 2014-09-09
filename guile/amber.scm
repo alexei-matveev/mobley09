@@ -400,18 +400,18 @@
     (let ((bas (if (equal? sym 'H) 'bas 'ecp)))
       `(,bas "nwchem" ,(symbol->string sym) "crenbl_ecp" "ahlrichs_coulomb_fitting")))
   `((operations
-     (operations_symm #t)
-     (operations_integral #t)
-     (operations_scf #t)
-     (operations_dipole #t)
-     (operations_properties #f)
+     (operations-symm #t)
+     (operations-integral #t)
+     (operations-scf #t)
+     (operations-dipole #t)
+     (operations-properties #f)
      ,@(if solvation
            '((operations-solvation-effect #t))
            '()))
-    (main_options
-     (integrals_on_file #f)             ; This is faster
+    (main-options
+     (integrals-on-file #f)             ; This is faster
      (relativistic "false")             ; This is an ECP calculation
-     (spin_restricted #t))              ; FIXME: do we have radiacals?
+     (spin-restricted #t))              ; FIXME: do we have radiacals?
     ;; (geo
     ;;  (units angstrom)
     ;;  ("C" (-0.748 -0.015 0.024))
@@ -423,12 +423,12 @@
     (geo
      (units angstrom)
      ,@(map make-ua chemical-symbols cartesian-coordinates))
-    (mixing (chmix 0.5) (start_after_cycle 5))
-    (grid (sym_reduce #t) (weight_grads #t))
+    (mixing (chmix 0.5) (start-after-cycle 5))
+    (grid (sym-reduce #t) (weight-grads #t))
     ;; (rep 6 (gridatom (nrad 30) (nang 131)))
     (rep ,(length chemical-symbols)
          (gridatom (nrad 30) (nang 131)))
-    (xc_control (xc "pbe"))
+    (xc-control (xc "pbe"))
     ;; (ecp "nwchem" "C" "crenbl_ecp" "ahlrichs_coulomb_fitting")
     ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
     ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
