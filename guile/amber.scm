@@ -393,7 +393,7 @@
   (pretty-print (map atomic-number (map from-sybyl sybyl-symbols))))
 
 
-(define (make-input chemical-symbols cartesian-coordinates)
+(define (make-input chemical-symbols cartesian-coordinates solvation)
   (define (make-ua sym pos)
     `(,(symbol->string sym) ,pos (z ,(atomic-number sym))))
   (define (make-bas sym)
@@ -404,7 +404,10 @@
      (operations_integral #t)
      (operations_scf #t)
      (operations_dipole #t)
-     (operations_properties #f))
+     (operations_properties #f)
+     ,@(if solvation
+           '((operations-solvation-effect #t))
+           '()))
     (main_options
      (integrals_on_file #f)             ; This is faster
      (relativistic "false")             ; This is an ECP calculation
@@ -432,7 +435,13 @@
     ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
     ;; (ecp "nwchem" "O" "crenbl_ecp" "ahlrichs_coulomb_fitting")
     ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
-    ,@(map make-bas chemical-symbols)))
+    ,@(map make-bas chemical-symbols)
+    ,@(if solvation
+          '((solvation
+             (smoothing "fixpva")
+             (sol-start-cycle 10)
+             (correction-type "None")))
+          '())))
 
 
 (define (write-pg-input entry)
@@ -441,11 +450,11 @@
          (coords (map third atoms))
          (sybyl-symbols (map fourth atoms))
          (names (map from-sybyl sybyl-symbols)))
-    (pretty-print (make-input names coords))))
+    (pretty-print (make-input names coords #t))))
 
 
 ;;; This will produce ~500 *.scm files in the directory:
-(if #f
+(if #t
     (for-each (lambda (entry)
                 (with-output-to-file (string-append entry ".scm")
                   (lambda () (write-pg-input entry))))
