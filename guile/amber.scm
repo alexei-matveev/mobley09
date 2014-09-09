@@ -297,11 +297,11 @@
               (pretty-print (map cons mol2-charges prmtop-charges)))
         diff))))
 
-(let ((max-diff (apply max (map (lambda (entry)
-                                  (max-charge-diff entry))
-                                entries))))
-  (pretty-print max-diff))
-(exit 0)
+(if #f
+    (let ((max-diff (apply max (map (lambda (entry)
+                                      (max-charge-diff entry))
+                                    entries))))
+      (pretty-print max-diff)))
 
 ;;;
 ;;; FIXME: inefficient:
@@ -312,7 +312,7 @@
          (sort (map symbol->string selection)
                string<))))
 
-(if #t
+(if #f
     (let ((selection (get-unique-symbols (lambda (entry)
                                            (let ((parsed (prmtop-get entry)))
                                              (assoc-ref parsed 'AMBER_ATOM_TYPE))))))
@@ -322,13 +322,131 @@
          (map (lambda (atom-type)
                 (assoc atom-type gaff))
               selection)))))
-(exit 0)
 
-(let ((selection (get-unique-symbols (lambda (entry)
-                                       (let* ((parsed (mol2-get entry))
-                                              (atoms (assoc-ref parsed '@<TRIPOS>ATOM)))
-                                         (map (lambda (row) (list-ref row 3)) atoms))))))
-  (pretty-print selection)
-  (pretty-print (length selection)))
+(if #f
+    (let ((selection (get-unique-symbols (lambda (entry)
+                                           (let* ((parsed (mol2-get entry))
+                                                  (atoms (assoc-ref parsed '@<TRIPOS>ATOM)))
+                                             (map (lambda (row) (list-ref row 3)) atoms))))))
+      (pretty-print selection)
+      (pretty-print (length selection))))
+
+;;;
+;;; With input as this
+;;;
+;;; ((C C.1 C.2 C.3)
+;;;  (N N.1 N.2 N.3))
+;;;
+;;; this will return a function that return either C or N for all of
+;;; the alternative names.
+;;;
+(define (make-translator rows)
+  (let ((alist (let lp1 ((alist '())
+                         (rows rows))
+                 (if (null? rows)
+                     alist
+                     (lp1 (let* ((row (car rows))
+                                 (canonical (first row))
+                                 (aliases (cdr row)))
+                            (let lp2 ((alist alist)
+                                      (aliases aliases))
+                              (if (null? aliases)
+                                  alist
+                                  (lp2 (acons (car aliases) canonical alist)
+                                       (cdr aliases)))))
+                          (cdr rows))))))
+    (lambda (symbol)
+      (assoc-ref alist symbol))))
+
+;;;
+;;; Translation SYBYL -> PG:
+;;;
+(define from-sybyl
+  (make-translator
+   '((Br Br)
+     (C C.1 C.2 C.3)
+     (Cl Cl)
+     (F F)
+     (H H)
+     (I I)
+     (N N.1 N.2 N.3)
+     (O O.2 O.3)
+     (P P.3)
+     (S S.1 S.2 S.3 S.O2))))
+
+(define atomic-number
+  (make-translator
+   '((35 Br)
+     (6 C)
+     (17 Cl)
+     (9 F)
+     (1 H)
+     (53 I)
+     (7 N)
+     (8 O)
+     (15 P)
+     (16 S))))
 
 
+(let ((sybyl-symbols '(Br C.1 C.2 C.3 Cl F H I N.1 N.2 N.3 O.2 O.3 P.3 S.1 S.2 S.3 S.O2)))
+  (pretty-print (map from-sybyl sybyl-symbols))
+  (pretty-print (map atomic-number (map from-sybyl sybyl-symbols))))
+
+
+(define (make-input chemical-symbols cartesian-coordinates)
+  (define (make-ua sym pos)
+    `(,(symbol->string sym) ,pos (z ,(atomic-number sym))))
+  (define (make-bas sym)
+    (let ((bas (if (equal? sym 'H) 'bas 'ecp)))
+      `(,bas "nwchem" ,(symbol->string sym) "crenbl_ecp" "ahlrichs_coulomb_fitting")))
+  `((operations
+     (operations_symm #t)
+     (operations_integral #t)
+     (operations_scf #t)
+     (operations_dipole #t)
+     (operations_properties #f))
+    (main_options
+     (integrals_on_file #f)             ; This is faster
+     (relativistic "false")             ; This is an ECP calculation
+     (spin_restricted #t))              ; FIXME: do we have radiacals?
+    ;; (geo
+    ;;  (units angstrom)
+    ;;  ("C" (-0.748 -0.015 0.024))
+    ;;  ("HC1" (-1.293 -0.202 -0.901) (z 1))
+    ;;  ("HC2" (-1.263 0.754 0.6) (z 1))
+    ;;  ("HC3" (-0.699 -0.934 0.609) (z 1))
+    ;;  ("O" (0.558 0.42 -0.278))
+    ;;  ("OH" (0.716 1.404 0.137) (z 1)))
+    (geo
+     (units angstrom)
+     ,@(map make-ua chemical-symbols cartesian-coordinates))
+    (mixing (chmix 0.5) (start_after_cycle 5))
+    (grid (sym_reduce #t) (weight_grads #t))
+    ;; (rep 6 (gridatom (nrad 30) (nang 131)))
+    (rep ,(length chemical-symbols)
+         (gridatom (nrad 30) (nang 131)))
+    (xc_control (xc "pbe"))
+    ;; (ecp "nwchem" "C" "crenbl_ecp" "ahlrichs_coulomb_fitting")
+    ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
+    ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
+    ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
+    ;; (ecp "nwchem" "O" "crenbl_ecp" "ahlrichs_coulomb_fitting")
+    ;; (bas "nwchem" "H" "crenbl_ecp" "ahlrichs_coulomb_fitting")
+    ,@(map make-bas chemical-symbols)))
+
+
+(define (write-pg-input entry)
+  (let* ((parsed (mol2-get entry))
+         (atoms (assoc-ref parsed '@<TRIPOS>ATOM))
+         (coords (map third atoms))
+         (sybyl-symbols (map fourth atoms))
+         (names (map from-sybyl sybyl-symbols)))
+    (pretty-print (make-input names coords))))
+
+
+;;; This will produce ~500 *.scm files in the directory:
+(if #f
+    (for-each (lambda (entry)
+                (with-output-to-file (string-append entry ".scm")
+                  (lambda () (write-pg-input entry))))
+              entries))
