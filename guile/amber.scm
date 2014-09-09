@@ -290,16 +290,16 @@
                                prmtop-charges)))
       ;; (pretty-print mol2-charges)
       ;; (pretty-print prmtop-charges)
-      (apply max (map abs
-                      (map - mol2-charges prmtop-charges))))))
+      (let ((diff (apply max (map abs
+                                  (map - mol2-charges prmtop-charges)))))
+        (when (> diff 1.0e-5)
+              (pretty-print (list entry diff))
+              (pretty-print (map cons mol2-charges prmtop-charges)))
+        diff))))
 
-(let ((max-diff (apply max (map
-                            (lambda (entry)
-                              (let ((diff (max-charge-diff entry)))
-                                (when (> diff 1.0e-5)
-                                      (pretty-print (list entry diff)))
-                                diff))
-                            entries))))
+(let ((max-diff (apply max (map (lambda (entry)
+                                  (max-charge-diff entry))
+                                entries))))
   (pretty-print max-diff))
 (exit 0)
 
