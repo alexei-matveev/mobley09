@@ -32,7 +32,7 @@
   (string-append "./charged_mol2files/" entry ".mol2"))
 
 (define (get-gaff)
-  (with-input-from-file "./gaff-vdw.scm" slurp))
+  (with-input-from-file "./guile/gaff-vdw.scm" slurp))
 
 (let ((gaff (get-gaff)))
   (pretty-print (map first gaff))
