@@ -31,6 +31,14 @@
 (define (mol2-path entry)
   (string-append "./charged_mol2files/" entry ".mol2"))
 
+(define (get-gaff)
+  (with-input-from-file "./gaff-vdw.scm" slurp))
+
+(let ((gaff (get-gaff)))
+  (pretty-print (map first gaff))
+  (pretty-print (length gaff)))
+
+
 ;;;
 ;;; This succeds,  both for *.prmtop and *.mol2  files. Though because
 ;;; of  symbols such  as #{5E16.8}#  and @<TRIPOS>MOLECULE  it  is not
@@ -278,11 +286,17 @@
          (sort (map symbol->string selection)
                string<))))
 
-(if #f
+(if #t
     (let ((selection (get-unique-symbols (lambda (entry)
                                            (let ((parsed (prmtop-get entry)))
                                              (assoc-ref parsed 'AMBER_ATOM_TYPE))))))
-      (pretty-print selection)))
+      (pretty-print selection)
+      (let ((gaff (get-gaff)))
+        (pretty-print
+         (map (lambda (atom-type)
+                (assoc atom-type gaff))
+              selection)))))
+(exit 0)
 
 (let ((selection (get-unique-symbols (lambda (entry)
                                        (let* ((parsed (mol2-get entry))
