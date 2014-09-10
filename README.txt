@@ -27,3 +27,6 @@ the max deviation of site charges in natural units.
   ("methyl_p_nitrobenzoate" 0.3298)
   ("NN_dimethyl_p_nitrobenzamide" 0.7870999999999999)
 
+FIXME: "2_methyl_but_2_ene" and "2_methylbut_2_ene" give identical
+results in QM
+
