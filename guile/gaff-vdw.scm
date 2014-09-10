@@ -1,3 +1,7 @@
+;;;
+;;; The  two parameters  are vdW  "radius" and  well depth  of  the LJ
+;;; shape. FIXMe: need some reasonable choice for "ho" parameters
+;;;
  (h1          1.3870  0.0157            "Veenstra et al JCC,8,(1992),963")
  (h2          1.2870  0.0157            "Veenstra et al JCC,8,(1992),963")
  (h3          1.1870  0.0157            "Veenstra et al JCC,8,(1992),963")
@@ -6,7 +10,8 @@
  (ha          1.4590  0.0150            "Spellmeyer")
  (hc          1.4870  0.0157            "OPLS")
  (hn          0.6000  0.0157            "Ferguson base pair geom.")
- (ho          0.0000  0.0000            "OPLS Jorgensen, JACS,110,(1988),1657")
+;(ho          0.0000  0.0000            "OPLS Jorgensen, JACS,110,(1988),1657")
+ (ho          0.22449240966187461 0.04  "Fake non-zero, 0.4 / 2**(5/6)") ; FIXME!
  (hp          0.6000  0.0157            "same to hs (be careful !)")
  (hs          0.6000  0.0157            "W. Cornell CH3SH --> CH3OH FEP")
  (hw          0.0000  0.0000            "OPLS Jorgensen, JACS,110,(1988),1657")
