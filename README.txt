@@ -27,6 +27,13 @@ the max deviation of site charges in natural units.
   ("methyl_p_nitrobenzoate" 0.3298)
   ("NN_dimethyl_p_nitrobenzamide" 0.7870999999999999)
 
+For the first  one, "hex_1_yne", the reason might  be a permutation of
+the sites.  Site name order in Mol2 and Amber files differ:
+
+ MOL2:  (C2 C3 C4 C5 C6 H1 C1 H2 H3 H4 H5 H6 H7 H8 H9 H10)
+ AMBER: (C1 C2 C3 C4 C5 C6 H1 H2 H3 H4 H5 H6 H7 H8 H9 H10)
+ TYPES: (c1 c1 c3 c3 c3 c3 ha hc hc hc hc hc hc hc hc hc)
+
 FIXME:  "2_methyl_but_2_ene"  and  "2_methylbut_2_ene" give  identical
 results  in QM.   Both were  programmatically assigned  IUPAC  name of
 2-methylbut-2-ene by the authors.
