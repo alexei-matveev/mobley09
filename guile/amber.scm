@@ -3,9 +3,14 @@
 ;;;
 ;;; guile -s guile/amber.scm
 ;;;
-(use-modules (system base lalr))
-(use-modules (srfi srfi-1))
-(use-modules (ice-9 pretty-print))
+(define-module (guile amber)
+  #:use-module (system base lalr)
+  #:use-module (srfi srfi-1)
+  #:use-module (ice-9 pretty-print)
+  #:export
+  (entries
+   make-solute)
+  )
 
 ;;;
 ;;; Slurps the whole file into a list:
@@ -22,21 +27,25 @@
 ;;; topology),  *.crd (coordinates) and  *.mol2 (coordinates  an more)
 ;;; files in the database.
 ;;;
+(define (find-file rel-path)
+  (search-path %load-path rel-path))
+
 (define entries
-  (with-input-from-file "./guile/entries.scm" slurp))
+  (with-input-from-file (find-file "./guile/entries.scm")
+    slurp))
 
 (define (prmtop-path entry)
-  (string-append "./prmcrd/" entry ".prmtop"))
+  (find-file (string-append "./prmcrd/" entry ".prmtop")))
 
 (define (mol2-path entry)
-  (string-append "./charged_mol2files/" entry ".mol2"))
+  (find-file (string-append "./charged_mol2files/" entry ".mol2")))
 
 ;;;
 ;;; Keeps contents in memory ...
 ;;;
 (define gaff-get
   (let ((contents (delay
-                    (with-input-from-file "./guile/gaff-vdw.scm" slurp))))
+                    (with-input-from-file (find-file "./guile/gaff-vdw.scm") slurp))))
     (lambda ()
       (force contents))))
 
@@ -347,11 +356,12 @@
     (list (string-append "mobley09:" entry)
           sites)))
 
-(for-each
- (lambda (entry)
-   (pretty-print (make-solute entry)))
- entries)
-(exit 0)
+(if #f
+    (for-each
+     (lambda (entry)
+       (pretty-print (make-solute entry)))
+     entries)
+    (exit 0))
 
 (if #f
     (let ((selection (get-unique-symbols (lambda (entry)
