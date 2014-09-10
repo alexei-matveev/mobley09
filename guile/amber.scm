@@ -31,34 +31,32 @@
 (define (mol2-path entry)
   (string-append "./charged_mol2files/" entry ".mol2"))
 
-(define (get-gaff)
-  (with-input-from-file "./guile/gaff-vdw.scm" slurp))
-
-(if #f
-    (let ((gaff (get-gaff)))
-      (pretty-print (map first gaff))
-      (pretty-print (length gaff))))
-
+;;;
+;;; Keeps contents in memory ...
+;;;
+(define gaff-get
+  (let ((contents (delay
+                    (with-input-from-file "./guile/gaff-vdw.scm" slurp))))
+    (lambda ()
+      (force contents))))
 
 ;;;
-;;; This succeds,  both for *.prmtop and *.mol2  files. Though because
-;;; of  symbols such  as #{5E16.8}#  and @<TRIPOS>MOLECULE  it  is not
-;;; clear if it should:
+;;; ... because we will repeatedly need it:
 ;;;
-(if #f
-    (let ((contents (map (lambda (entry)
-                           (with-input-from-file
-                               ;; (prmtop-path entry)
-                               (mol2-path entry)
-                             slurp))
-                         entries)))
-      (pretty-print contents)
-      (exit 0)))
+(define (gaff-lookup atom-type)
+  (let ((contents (gaff-get)))
+    (assoc-ref contents atom-type)))
 
+;;;
+;;; Reading (in Scheme sense) of  all of the *.prmtop and *.mol2 files
+;;; succeeds.   Though  because  of  symbols such  as  #{5E16.8}#  and
+;;; @<TRIPOS>MOLECULE it is not clear  if it should. Pray it stays so,
+;;; otherwise one may need a custom lexer/reader.
+;;;
 
-;;
-;; FIXME: slurps the whole input into a list, yileds that elementwise:
-;;
+;;;
+;;; FIXME: slurps the whole input into a list, yileds that elementwise:
+;;;
 (define (make-greedy-tokenizer make-token)
   (let ((*buf* (slurp)))
     ;; (pretty-print *buf*)
@@ -114,6 +112,7 @@
 ;;
 (define (make-prmtop-parser)
   (lalr-parser
+   (out-table: "./prmtop.parser")
    ;;
    ;; Terminals:
    ;;
@@ -311,13 +310,55 @@
     (map string->symbol
          (sort (map symbol->string selection)
                string<))))
+;;;
+;;; Topology file does  not contain geometry, so we  have to read both
+;;; *.prmtop and *.mol2 files.
+;;;
+(define (make-solute entry)
+  (let* ((prmtop (prmtop-get entry))
+         (amber-names (assoc-ref prmtop 'ATOM_NAME))
+         (amber-charges (assoc-ref prmtop 'CHARGE))
+         (amber-charges (map (lambda (q) (/ q 18.2223)) amber-charges))
+         (amber-types (assoc-ref prmtop 'AMBER_ATOM_TYPE))
+         ;; Coordinates are not in topology file:
+         (mol2 (mol2-get entry))
+         (mol2-atoms (assoc-ref mol2 '@<TRIPOS>ATOM))
+         (mol2-names (map second mol2-atoms))
+         (ok (or (equal? amber-names mol2-names)
+                 (pretty-print (list "Names in mol2 and topology files differ!"
+                                     entry
+                                     'MOL2: mol2-names
+                                     'AMBER: amber-names
+                                     'TYPES: amber-types)
+                               (current-error-port))))
+         ;; Otherwise positions may not correspond to the types:
+         (positions (map third mol2-atoms))
+         (parameters (map gaff-lookup amber-types))
+         (radii (map first parameters))
+         (epsilons (map second parameters))
+         ;; σ = r * 2^(5/6)
+         (sigmas (map (lambda (r) (* r (expt 2 5/6))) radii))
+         (sites (map list
+                     (map symbol->string amber-names)
+                     positions
+                     sigmas
+                     epsilons
+                     amber-charges)))
+    (list (string-append "mobley09:" entry)
+          sites)))
+
+(for-each
+ (lambda (entry)
+   (pretty-print (make-solute entry)))
+ entries)
+(exit 0)
 
 (if #f
     (let ((selection (get-unique-symbols (lambda (entry)
                                            (let ((parsed (prmtop-get entry)))
                                              (assoc-ref parsed 'AMBER_ATOM_TYPE))))))
       (pretty-print selection)
-      (let ((gaff (get-gaff)))
+      (let ((gaff (gaff-get)))
         (pretty-print
          (map (lambda (atom-type)
                 (assoc atom-type gaff))
@@ -454,7 +495,7 @@
 
 
 ;;; This will produce ~500 *.scm files in the directory:
-(if #t
+(if #f
     (for-each (lambda (entry)
                 (with-output-to-file (string-append entry ".scm")
                   (lambda () (write-pg-input entry))))
