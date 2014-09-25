@@ -1,7 +1,7 @@
 ;;;
 ;;; Copyright (c) Alexei Matveev
 ;;;
-;;; guile -s guile/amber.scm
+;;; guile -L . -s guile/amber.scm
 ;;;
 (define-module (guile amber)
   #:use-module (system base lalr)
