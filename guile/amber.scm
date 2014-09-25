@@ -360,8 +360,7 @@
     (for-each
      (lambda (entry)
        (pretty-print (make-solute entry)))
-     entries)
-    (exit 0))
+     entries))
 
 (if #f
     (let ((selection (get-unique-symbols (lambda (entry)
@@ -501,11 +500,11 @@
          (coords (map third atoms))
          (sybyl-symbols (map fourth atoms))
          (names (map from-sybyl sybyl-symbols)))
-    (pretty-print (make-input names coords #t))))
+    (pretty-print (make-input names coords #f))))
 
 
 ;;; This will produce ~500 *.scm files in the directory:
-(if #f
+(if #t
     (for-each (lambda (entry)
                 (with-output-to-file (string-append entry ".scm")
                   (lambda () (write-pg-input entry))))
